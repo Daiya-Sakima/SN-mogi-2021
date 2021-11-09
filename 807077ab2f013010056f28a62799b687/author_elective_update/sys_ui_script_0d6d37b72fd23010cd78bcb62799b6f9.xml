@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_script">
+    <sys_ui_script action="DELETE">
+        <active>true</active>
+        <description>決裁書記号に値が入力された場合、年度に自動で値を入力する</description>
+        <global>false</global>
+        <name>x_562723_snmogi.autoNendoAssets</name>
+        <script><![CDATA[var x_562723_snmogi = x_562723_snmogi || {};
+
+x_562723_snmogi.autoNendoAssets = (function() {
+	"use strict";
+
+	var curKigou = g_form.getValue('u_kigou');
+	if(curKigou != null) {
+		current.u_nendo = current.u_kigou.u_riyounendo;
+	}
+
+	return {
+
+/* set your public API here. For example:
+		incrementAndReturnPrivateVar: function() {
+			return private_function();
+		},
+*/
+		type:  "autoNendoAssets"
+	};
+})();
+]]></script>
+        <script_name>autoNendoAssets</script_name>
+        <sys_class_name>sys_ui_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-09-07 06:01:55</sys_created_on>
+        <sys_id>0d6d37b72fd23010cd78bcb62799b6f9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_562723_snmogi.autoNendoAssets</sys_name>
+        <sys_package display_value="決裁システム" source="x_562723_snmogi">807077ab2f013010056f28a62799b687</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="決裁システム">807077ab2f013010056f28a62799b687</sys_scope>
+        <sys_update_name>sys_ui_script_0d6d37b72fd23010cd78bcb62799b6f9</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-09-07 06:01:55</sys_updated_on>
+        <ui_type>0</ui_type>
+        <use_scoped_format>true</use_scoped_format>
+    </sys_ui_script>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="決裁システム">807077ab2f013010056f28a62799b687</application>
+        <file_path/>
+        <instance_id>e03748e0db0b73002f68c597059619fd</instance_id>
+        <instance_name>dev89956</instance_name>
+        <name>sys_ui_script_0d6d37b72fd23010cd78bcb62799b6f9</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_ui_script"&gt;&lt;sys_ui_script action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;description&gt;決裁書記号に値が入力された場合、年度に自動で値を入力する&lt;/description&gt;&lt;global&gt;false&lt;/global&gt;&lt;name&gt;x_562723_snmogi.autoNendoAssets&lt;/name&gt;&lt;script&gt;&lt;![CDATA[var x_562723_snmogi = x_562723_snmogi || {};
+
+x_562723_snmogi.autoNendoAssets = (function() {
+	"use strict";
+
+	var curKigou = g_form.getValue('u_kigou');
+	if(curKigou != null) {
+		current.u_nendo = current.u_kigou.u_riyounendo;
+	}
+
+	return {
+
+/* set your public API here. For example:
+		incrementAndReturnPrivateVar: function() {
+			return private_function();
+		},
+*/
+		type:  "autoNendoAssets"
+	};
+})();
+]]&gt;&lt;/script&gt;&lt;script_name&gt;autoNendoAssets&lt;/script_name&gt;&lt;sys_class_name&gt;sys_ui_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-09-07 06:01:55&lt;/sys_created_on&gt;&lt;sys_id&gt;0d6d37b72fd23010cd78bcb62799b6f9&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;x_562723_snmogi.autoNendoAssets&lt;/sys_name&gt;&lt;sys_package display_value="決裁システム" source="x_562723_snmogi"&gt;807077ab2f013010056f28a62799b687&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="決裁システム"&gt;807077ab2f013010056f28a62799b687&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ui_script_0d6d37b72fd23010cd78bcb62799b6f9&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-09-07 06:01:55&lt;/sys_updated_on&gt;&lt;ui_type&gt;0&lt;/ui_type&gt;&lt;use_scoped_format&gt;true&lt;/use_scoped_format&gt;&lt;/sys_ui_script&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-94485480</payload_hash>
+        <record_name>x_562723_snmogi.autoNendoAssets</record_name>
+        <reverted_from/>
+        <source>147077ab2f013010056f28a62799b689</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-09-07 06:01:55</sys_created_on>
+        <sys_id>ca6e77b72fd23010cd78bcb62799b602</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17bbed947e90000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-09-07 06:01:55</sys_updated_on>
+        <type>UI Script</type>
+        <update_guid>066e77b745d23010ae4c23c84a516402</update_guid>
+        <update_guid_history>066e77b745d23010ae4c23c84a516402:-94485480</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-09-07 06:04:01</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_script">sys_ui_script</sys_db_object>
+        <sys_id>566e3a909bd14c88a5280c5d253eea40</sys_id>
+        <sys_metadata>0d6d37b72fd23010cd78bcb62799b6f9</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_562723_snmogi.autoNendoAssets</sys_name>
+        <sys_package display_value="決裁システム" source="x_562723_snmogi">807077ab2f013010056f28a62799b687</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="決裁システム">807077ab2f013010056f28a62799b687</sys_scope>
+        <sys_scope_delete display_value="">56e3d82ab4b847eeb7d50eac727ec071</sys_scope_delete>
+        <sys_update_name>sys_ui_script_0d6d37b72fd23010cd78bcb62799b6f9</sys_update_name>
+        <sys_update_version display_value="sys_ui_script_0d6d37b72fd23010cd78bcb62799b6f9">ca6e77b72fd23010cd78bcb62799b602</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-09-07 06:04:01</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

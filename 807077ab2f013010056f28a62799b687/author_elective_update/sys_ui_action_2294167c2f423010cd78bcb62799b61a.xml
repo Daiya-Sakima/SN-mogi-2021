@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_action">
+    <sys_ui_action action="DELETE">
+        <action_name>発議依頼</action_name>
+        <active>true</active>
+        <client>false</client>
+        <client_script_v2><![CDATA[function onClick(g_form) {
+
+}]]></client_script_v2>
+        <comments>起案中に表示させるボタン</comments>
+        <condition>current.u_approval_level == '0';</condition>
+        <form_action>true</form_action>
+        <form_button>true</form_button>
+        <form_button_v2>false</form_button_v2>
+        <form_context_menu>true</form_context_menu>
+        <form_link>false</form_link>
+        <form_menu_button_v2>false</form_menu_button_v2>
+        <form_style>primary</form_style>
+        <hint/>
+        <isolate_script>false</isolate_script>
+        <list_action>false</list_action>
+        <list_banner_button>false</list_banner_button>
+        <list_button>false</list_button>
+        <list_choice>false</list_choice>
+        <list_context_menu>false</list_context_menu>
+        <list_link>false</list_link>
+        <list_save_with_form_button>false</list_save_with_form_button>
+        <list_style/>
+        <messages>法務室にリーガルチェックを依頼します。</messages>
+        <name>発議依頼</name>
+        <onclick/>
+        <order>100</order>
+        <script><![CDATA[if (current.u_bunrui=="Yes") {
+		current.u_approval_level = "10";
+		current.update();
+	} else {
+		current.u_approval_level = "20";
+		current.update();
+	}]]></script>
+        <show_insert>true</show_insert>
+        <show_multiple_update>false</show_multiple_update>
+        <show_query>false</show_query>
+        <show_update>true</show_update>
+        <sys_class_name>sys_ui_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-08-16 04:30:07</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>2294167c2f423010cd78bcb62799b61a</sys_id>
+        <sys_mod_count>16</sys_mod_count>
+        <sys_name>発議依頼</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="決裁システム" source="x_562723_snmogi">807077ab2f013010056f28a62799b687</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="決裁システム">807077ab2f013010056f28a62799b687</sys_scope>
+        <sys_update_name>sys_ui_action_2294167c2f423010cd78bcb62799b61a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-08-16 05:29:02</sys_updated_on>
+        <table>x_562723_snmogi_kessai</table>
+        <ui11_compatible>true</ui11_compatible>
+        <ui16_compatible>false</ui16_compatible>
+    </sys_ui_action>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="決裁システム">807077ab2f013010056f28a62799b687</application>
+        <file_path/>
+        <instance_id>e03748e0db0b73002f68c597059619fd</instance_id>
+        <instance_name>dev89956</instance_name>
+        <name>sys_ui_action_2294167c2f423010cd78bcb62799b61a</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_ui_action"&gt;&lt;sys_ui_action action="INSERT_OR_UPDATE"&gt;&lt;action_name&gt;発議依頼&lt;/action_name&gt;&lt;active&gt;true&lt;/active&gt;&lt;client&gt;false&lt;/client&gt;&lt;client_script_v2&gt;&lt;![CDATA[function onClick(g_form) {
+
+}]]&gt;&lt;/client_script_v2&gt;&lt;comments&gt;起案中に表示させるボタン&lt;/comments&gt;&lt;condition&gt;current.u_approval_level == '0';&lt;/condition&gt;&lt;form_action&gt;true&lt;/form_action&gt;&lt;form_button&gt;true&lt;/form_button&gt;&lt;form_button_v2&gt;false&lt;/form_button_v2&gt;&lt;form_context_menu&gt;true&lt;/form_context_menu&gt;&lt;form_link&gt;false&lt;/form_link&gt;&lt;form_menu_button_v2&gt;false&lt;/form_menu_button_v2&gt;&lt;form_style&gt;primary&lt;/form_style&gt;&lt;hint/&gt;&lt;isolate_script&gt;false&lt;/isolate_script&gt;&lt;list_action&gt;false&lt;/list_action&gt;&lt;list_banner_button&gt;false&lt;/list_banner_button&gt;&lt;list_button&gt;false&lt;/list_button&gt;&lt;list_choice&gt;false&lt;/list_choice&gt;&lt;list_context_menu&gt;false&lt;/list_context_menu&gt;&lt;list_link&gt;false&lt;/list_link&gt;&lt;list_save_with_form_button&gt;false&lt;/list_save_with_form_button&gt;&lt;list_style/&gt;&lt;messages&gt;法務室にリーガルチェックを依頼します。&lt;/messages&gt;&lt;name&gt;発議依頼&lt;/name&gt;&lt;onclick/&gt;&lt;order&gt;100&lt;/order&gt;&lt;script&gt;&lt;![CDATA[if (current.u_bunrui=="Yes") {
+		current.u_approval_level = "10";
+		current.update();
+	} else {
+		current.u_approval_level = "20";
+		current.update();
+	}]]&gt;&lt;/script&gt;&lt;show_insert&gt;true&lt;/show_insert&gt;&lt;show_multiple_update&gt;false&lt;/show_multiple_update&gt;&lt;show_query&gt;false&lt;/show_query&gt;&lt;show_update&gt;true&lt;/show_update&gt;&lt;sys_class_name&gt;sys_ui_action&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-08-16 04:30:07&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;2294167c2f423010cd78bcb62799b61a&lt;/sys_id&gt;&lt;sys_mod_count&gt;16&lt;/sys_mod_count&gt;&lt;sys_name&gt;発議依頼&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="決裁システム" source="x_562723_snmogi"&gt;807077ab2f013010056f28a62799b687&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="決裁システム"&gt;807077ab2f013010056f28a62799b687&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ui_action_2294167c2f423010cd78bcb62799b61a&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-08-16 05:29:02&lt;/sys_updated_on&gt;&lt;table&gt;x_562723_snmogi_kessai&lt;/table&gt;&lt;ui11_compatible&gt;true&lt;/ui11_compatible&gt;&lt;ui16_compatible&gt;false&lt;/ui16_compatible&gt;&lt;/sys_ui_action&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-1245802900</payload_hash>
+        <record_name>発議依頼</record_name>
+        <reverted_from/>
+        <source>147077ab2f013010056f28a62799b689</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-08-16 05:29:02</sys_created_on>
+        <sys_id>7de362b42f823010cd78bcb62799b672</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17b4d6f42130000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-08-16 05:29:02</sys_updated_on>
+        <type>UI アクション</type>
+        <update_guid>f5e362b4bc823010004795828dce9772</update_guid>
+        <update_guid_history>f5e362b4bc823010004795828dce9772:-1245802900,31b2e674b2823010df51b1c2a72b520b:-1825844265,68626a34d582301056a5fe642de40792:-100636809,04b16e34448230108ba2847cf17a1e56:-2032144659,c841eef06e82301028b92b2a0091d145:1888954410,88e0e2b06c823010c69ccb880805060a:-415302120,2d8c52b04f82301076cc3d653918608d:1516205730,252c96704b8230109079f02760c9e580:-939313795,cf8b5670b9823010e32710ce32d7a847:1868142635,8c2bd270c3823010874e9c422a2150c0:537049583,6d0a5a3068823010162d568efa74ed8d:1317727566,73b81efcdd423010a528c33a1fe01350:765303195,826896fcfd42301066782e2f4c24f788:-2075912513,b44856fcb3423010bb35fd276fb4e308:68603567,580792bc7e423010c567edcb41d842b8:58197109,a1d6167cd1423010b2ccc81b138727a1:-141893860,8f6616bc8842301044d32c8637d9da89:-836422954</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-08-16 05:36:42</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_action">sys_ui_action</sys_db_object>
+        <sys_id>33b4552dbdea47648d6851921331da10</sys_id>
+        <sys_metadata>2294167c2f423010cd78bcb62799b61a</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>発議依頼</sys_name>
+        <sys_package display_value="決裁システム" source="x_562723_snmogi">807077ab2f013010056f28a62799b687</sys_package>
+        <sys_parent display_value="決裁システム">dabb8ed82f913010056f28a62799b633</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="決裁システム">807077ab2f013010056f28a62799b687</sys_scope>
+        <sys_scope_delete display_value="">56e3d82ab4b847eeb7d50eac727ec071</sys_scope_delete>
+        <sys_update_name>sys_ui_action_2294167c2f423010cd78bcb62799b61a</sys_update_name>
+        <sys_update_version display_value="sys_ui_action_2294167c2f423010cd78bcb62799b61a">7de362b42f823010cd78bcb62799b672</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-08-16 05:36:42</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

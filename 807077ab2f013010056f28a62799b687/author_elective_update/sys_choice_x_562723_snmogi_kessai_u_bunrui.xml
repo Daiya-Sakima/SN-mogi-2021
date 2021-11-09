@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="u_bunrui" table="x_562723_snmogi_kessai" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>u_bunrui</element>
+            <name>x_562723_snmogi_kessai</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-07-06 08:27:25</sys_created_on>
+            <sys_id>c38304bb2f413010056f28a62799b6e2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>u_bunrui</sys_name>
+            <sys_package display_value="決裁システム" source="x_562723_snmogi">807077ab2f013010056f28a62799b687</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="決裁システム">807077ab2f013010056f28a62799b687</sys_scope>
+            <sys_update_name>sys_choice_x_562723_snmogi_kessai_u_bunrui</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-07-06 08:27:25</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_bunrui</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Yes</label>
+            <language>en</language>
+            <name>x_562723_snmogi_kessai</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-07-09 05:06:09</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>bc327a642f113010056f28a62799b639</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-07-09 05:06:09</sys_updated_on>
+            <value>1</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_bunrui</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>法務部によるリーガルチェックあり</label>
+            <language>ja</language>
+            <name>x_562723_snmogi_kessai</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-07-09 05:06:28</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>78527a642f113010056f28a62799b6ef</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-07-09 05:06:28</sys_updated_on>
+            <value>1</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_bunrui</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>No1</label>
+            <language>en</language>
+            <name>x_562723_snmogi_kessai</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-07-09 05:06:46</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f1527a642f113010056f28a62799b6f4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-07-09 05:06:46</sys_updated_on>
+            <value>2</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_bunrui</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>法務部によるリーガルチェックなし（リーガルセルフアセスメントシートあり）</label>
+            <language>ja</language>
+            <name>x_562723_snmogi_kessai</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-07-09 05:07:07</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d2723a642f113010056f28a62799b6a5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-07-09 05:07:07</sys_updated_on>
+            <value>2</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_bunrui</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>No2</label>
+            <language>en</language>
+            <name>x_562723_snmogi_kessai</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-07-09 05:07:23</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>6b723a642f113010056f28a62799b6d2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-07-09 05:07:23</sys_updated_on>
+            <value>3</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_bunrui</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>法務部によるリーガルチェックなし（リーガルセルフアセスメントシートなし）</label>
+            <language>ja</language>
+            <name>x_562723_snmogi_kessai</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-07-09 05:07:51</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>bca276642f113010056f28a62799b676</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-07-09 05:07:51</sys_updated_on>
+            <value>3</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

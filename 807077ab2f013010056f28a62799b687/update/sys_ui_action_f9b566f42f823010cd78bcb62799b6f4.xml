@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_action">
+    <sys_ui_action action="INSERT_OR_UPDATE">
+        <action_name>発議依頼</action_name>
+        <active>true</active>
+        <client>false</client>
+        <client_script_v2><![CDATA[function onClick(g_form) {
+
+}]]></client_script_v2>
+        <comments>起案中、訂正中に表示するボタン</comments>
+        <condition>(current.state== '0'||current.state=='-1')&amp;&amp;current.u_hina==false</condition>
+        <form_action>true</form_action>
+        <form_button>true</form_button>
+        <form_button_v2>false</form_button_v2>
+        <form_context_menu>false</form_context_menu>
+        <form_link>false</form_link>
+        <form_menu_button_v2>false</form_menu_button_v2>
+        <form_style>primary</form_style>
+        <hint/>
+        <isolate_script>false</isolate_script>
+        <list_action>false</list_action>
+        <list_banner_button>false</list_banner_button>
+        <list_button>false</list_button>
+        <list_choice>false</list_choice>
+        <list_context_menu>false</list_context_menu>
+        <list_link>false</list_link>
+        <list_save_with_form_button>false</list_save_with_form_button>
+        <list_style/>
+        <messages/>
+        <name>発議依頼</name>
+        <onclick/>
+        <order>100</order>
+        <script><![CDATA[var curPage = current;
+
+// 年度に"決裁書記号"で選択した記号の利用年度を挿入
+current.u_nendo = current.u_kigou.u_riyounendo;
+var gdt = new GlideDate();
+var curYear = gdt.getYearNoTZ();
+
+if (current.u_hina == true) {
+	current.u_hina = false;
+    current.update();
+    action.setRedirectURL(curPage);
+    gs.addErrorMessage("発議依頼を行う場合、決裁テーブルとして登録からチェックを外す必要があります。内容を確認し、再度ボタンを押下してください。");
+
+} else {
+
+    if ((current.u_nendo == curYear) || (current.u_nendo > curYear)) {
+        // リーガルチェック有の場合
+        if (current.u_bunrui == "1") {
+            current.state = "10";
+            current.update();
+
+            // リーガルチェック無の場合
+        } else {
+
+            // 共同発議者、発議者の設定有無で設定するステータスを振り分ける
+            if (!current.approver_list_2.nil()) {
+                // 共同発議者が設定されている場合
+                current.state = "20";
+                current.update();
+
+            } else {
+                // 共同発議者が設定されていない場合
+                current.state = "30";
+                current.update();
+            }
+        }
+    } else {
+        current.update();
+        action.setRedirectURL(curPage);
+        gs.addErrorMessage("年度が過去の場合、発議依頼はできません。決裁書記号を本年度以降の記号に変更してください。");
+
+    }
+}]]></script>
+        <show_insert>true</show_insert>
+        <show_multiple_update>false</show_multiple_update>
+        <show_query>false</show_query>
+        <show_update>true</show_update>
+        <sys_class_name>sys_ui_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-08-16 05:39:35</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>f9b566f42f823010cd78bcb62799b6f4</sys_id>
+        <sys_mod_count>45</sys_mod_count>
+        <sys_name>発議依頼</sys_name>
+        <sys_overrides display_value="Submit">42da42d00a0a0b340066377beb6dd099</sys_overrides>
+        <sys_package display_value="決裁システム" source="x_562723_snmogi">807077ab2f013010056f28a62799b687</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="決裁システム">807077ab2f013010056f28a62799b687</sys_scope>
+        <sys_update_name>sys_ui_action_f9b566f42f823010cd78bcb62799b6f4</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-10-29 06:35:27</sys_updated_on>
+        <table>x_562723_snmogi_kessai</table>
+        <ui11_compatible>true</ui11_compatible>
+        <ui16_compatible>true</ui16_compatible>
+    </sys_ui_action>
+</record_update>

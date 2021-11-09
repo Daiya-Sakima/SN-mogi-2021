@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="INSERT_OR_UPDATE">
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field>u_consideration_requester</field>
+        <mandatory>ignore</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-09-06 08:47:52</sys_created_on>
+        <sys_id>64ba17a32f563010cd78bcb62799b69a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>u_consideration_requester</sys_name>
+        <sys_package display_value="決裁システム" source="x_562723_snmogi">807077ab2f013010056f28a62799b687</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="決裁システム">807077ab2f013010056f28a62799b687</sys_scope>
+        <sys_update_name>sys_ui_policy_action_64ba17a32f563010cd78bcb62799b69a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-09-06 08:47:52</sys_updated_on>
+        <table>x_562723_snmogi_kessai</table>
+        <ui_policy display_value="UI制御(検討依頼)">da8a93a32f563010cd78bcb62799b660</ui_policy>
+        <visible>true</visible>
+    </sys_ui_policy_action>
+</record_update>

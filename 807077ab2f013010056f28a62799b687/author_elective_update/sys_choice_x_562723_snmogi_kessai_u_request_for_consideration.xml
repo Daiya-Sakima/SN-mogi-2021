@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="u_request_for_consideration" table="x_562723_snmogi_kessai" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>u_request_for_consideration</element>
+            <name>x_562723_snmogi_kessai</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-09-06 08:27:34</sys_created_on>
+            <sys_id>fd2657af2f163010cd78bcb62799b63e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>u_request_for_consideration</sys_name>
+            <sys_package display_value="決裁システム" source="x_562723_snmogi">807077ab2f013010056f28a62799b687</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="決裁システム">807077ab2f013010056f28a62799b687</sys_scope>
+            <sys_update_name>sys_choice_x_562723_snmogi_kessai_u_request_for_consideration</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-09-06 08:27:34</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_request_for_consideration</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>No</label>
+            <language>en</language>
+            <name>x_562723_snmogi_kessai</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-09-06 08:27:50</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>2d3697af2f163010cd78bcb62799b6b5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-09-06 08:27:50</sys_updated_on>
+            <value>No</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_request_for_consideration</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>無</label>
+            <language>ja</language>
+            <name>x_562723_snmogi_kessai</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-09-06 08:28:16</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>bf46dfaf2f163010cd78bcb62799b604</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-09-06 08:28:16</sys_updated_on>
+            <value>No</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_request_for_consideration</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Yes</label>
+            <language>en</language>
+            <name>x_562723_snmogi_kessai</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-09-06 08:27:34</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>7616dfaf2f163010cd78bcb62799b601</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-09-06 08:27:34</sys_updated_on>
+            <value>Yes</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_request_for_consideration</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>有</label>
+            <language>ja</language>
+            <name>x_562723_snmogi_kessai</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-09-06 08:28:02</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>68461b6f2f163010cd78bcb62799b6e8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-09-06 08:28:02</sys_updated_on>
+            <value>Yes</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

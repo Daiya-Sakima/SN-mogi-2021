@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="u_to_report_to_the_president" label="社長報告予定等" language="en" table="x_562723_snmogi_kessai">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_to_report_to_the_president</element>
+            <help/>
+            <hint/>
+            <label>社長報告予定等</label>
+            <language>en</language>
+            <name>x_562723_snmogi_kessai</name>
+            <plural>社長報告予定等s</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-09-03 06:14:59</sys_created_on>
+            <sys_id>1e0bd7ea2fd23010cd78bcb62799b617</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_name>社長報告予定等</sys_name>
+            <sys_package display_value="決裁システム" source="x_562723_snmogi">807077ab2f013010056f28a62799b687</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="決裁システム">807077ab2f013010056f28a62799b687</sys_scope>
+            <sys_update_name>sys_documentation_x_562723_snmogi_kessai_u_to_report_to_the_president_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-09-24 04:22:33</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

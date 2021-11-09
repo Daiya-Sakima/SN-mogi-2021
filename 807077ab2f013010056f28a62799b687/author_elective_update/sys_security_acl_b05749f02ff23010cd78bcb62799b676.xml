@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl">
+    <sys_security_acl action="DELETE">
+        <active>true</active>
+        <admin_overrides>true</admin_overrides>
+        <advanced>true</advanced>
+        <condition table="x_562723_snmogi_kessai">u_approver_list_4ISEMPTY^EQ<item endquery="false" field="u_approver_list_4" goto="false" newquery="false" operator="ISEMPTY" or="false" value=""/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <description>決定レベルごとのACL設定：役付・管理職以上（読み込みのみ）</description>
+        <name>x_562723_snmogi_kessai</name>
+        <operation display_value="read">read</operation>
+        <script><![CDATA[var arrUtil = new global.ArrayUtil();
+var curIdFlg = current.u_id_title_flg.getDisplayValue();
+var grCurUser = new GlideRecord('sys_user');
+var curUserDeptId = getUsrRecord(gs.getUserID());
+var curGougi1Ids = current.u_approver_list_5.split(",");
+
+for (var i = 0; i < curGougi1Ids.length; i++) {
+	var getUsrAnswer = getUsrRecord(curGougi1Ids[i]);
+	curGougi1Ids[i] = getUsrAnswer;
+}
+
+if ((curIdFlg == "0,1,2") && (arrUtil.indexOf(curGougi1Ids, curUserDeptId) != -1)) {
+    answer = true;
+} else {
+    answer = false;
+}
+
+function getUsrRecord(ansDept) {
+	var grRcdUser = new GlideRecord('sys_user');
+	grRcdUser.get(ansDept);
+	var deptId = grRcdUser.department;
+	return deptId;
+}]]></script>
+        <sys_class_name>sys_security_acl</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-09-22 05:31:39</sys_created_on>
+        <sys_id>b05749f02ff23010cd78bcb62799b676</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>x_562723_snmogi_kessai</sys_name>
+        <sys_package display_value="決裁システム" source="x_562723_snmogi">807077ab2f013010056f28a62799b687</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="決裁システム">807077ab2f013010056f28a62799b687</sys_scope>
+        <sys_update_name>sys_security_acl_b05749f02ff23010cd78bcb62799b676</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-09-22 05:32:41</sys_updated_on>
+        <type display_value="record">record</type>
+    </sys_security_acl>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="決裁システム">807077ab2f013010056f28a62799b687</application>
+        <file_path/>
+        <instance_id>e03748e0db0b73002f68c597059619fd</instance_id>
+        <instance_name>dev89956</instance_name>
+        <name>sys_security_acl_b05749f02ff23010cd78bcb62799b676</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_security_acl"&gt;&lt;sys_security_acl action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;admin_overrides&gt;true&lt;/admin_overrides&gt;&lt;advanced&gt;true&lt;/advanced&gt;&lt;condition table="x_562723_snmogi_kessai"&gt;u_approver_list_4ISEMPTY^EQ&lt;item endquery="false" field="u_approver_list_4" goto="false" newquery="false" operator="ISEMPTY" or="false" value=""/&gt;&lt;item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/&gt;&lt;/condition&gt;&lt;description&gt;決定レベルごとのACL設定：役付・管理職以上（読み込みのみ）&lt;/description&gt;&lt;name&gt;x_562723_snmogi_kessai&lt;/name&gt;&lt;operation display_value="read"&gt;read&lt;/operation&gt;&lt;script&gt;&lt;![CDATA[var arrUtil = new global.ArrayUtil();
+var curIdFlg = current.u_id_title_flg.getDisplayValue();
+var grCurUser = new GlideRecord('sys_user');
+var curUserDeptId = getUsrRecord(gs.getUserID());
+var curGougi1Ids = current.u_approver_list_5.split(",");
+
+for (var i = 0; i &lt; curGougi1Ids.length; i++) {
+	var getUsrAnswer = getUsrRecord(curGougi1Ids[i]);
+	curGougi1Ids[i] = getUsrAnswer;
+}
+
+if ((curIdFlg == "0,1,2") &amp;&amp; (arrUtil.indexOf(curGougi1Ids, curUserDeptId) != -1)) {
+    answer = true;
+} else {
+    answer = false;
+}
+
+function getUsrRecord(ansDept) {
+	var grRcdUser = new GlideRecord('sys_user');
+	grRcdUser.get(ansDept);
+	var deptId = grRcdUser.department;
+	return deptId;
+}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_security_acl&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-09-22 05:31:39&lt;/sys_created_on&gt;&lt;sys_id&gt;b05749f02ff23010cd78bcb62799b676&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name&gt;x_562723_snmogi_kessai&lt;/sys_name&gt;&lt;sys_package display_value="決裁システム" source="x_562723_snmogi"&gt;807077ab2f013010056f28a62799b687&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="決裁システム"&gt;807077ab2f013010056f28a62799b687&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_security_acl_b05749f02ff23010cd78bcb62799b676&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-09-22 05:32:41&lt;/sys_updated_on&gt;&lt;type display_value="record"&gt;record&lt;/type&gt;&lt;/sys_security_acl&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>1652286544</payload_hash>
+        <record_name>x_562723_snmogi_kessai</record_name>
+        <reverted_from/>
+        <source>147077ab2f013010056f28a62799b689</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-09-22 05:32:41</sys_created_on>
+        <sys_id>c89701342ff23010cd78bcb62799b610</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17c0bfde7b30000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-09-22 05:32:41</sys_updated_on>
+        <type>Access Control</type>
+        <update_guid>4497013462f2301045351780220f3f10</update_guid>
+        <update_guid_history>4497013462f2301045351780220f3f10:1652286544,345749f043f23010aab156965b886779:-373660223</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-09-22 05:59:36</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl">sys_security_acl</sys_db_object>
+        <sys_id>812d6d4fbf7546e3842b64e1aecaab29</sys_id>
+        <sys_metadata>b05749f02ff23010cd78bcb62799b676</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_562723_snmogi_kessai</sys_name>
+        <sys_package display_value="決裁システム" source="x_562723_snmogi">807077ab2f013010056f28a62799b687</sys_package>
+        <sys_parent display_value="x_562723_snmogi_kessai">874c065c2f913010056f28a62799b6a7</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="決裁システム">807077ab2f013010056f28a62799b687</sys_scope>
+        <sys_scope_delete display_value="">56e3d82ab4b847eeb7d50eac727ec071</sys_scope_delete>
+        <sys_update_name>sys_security_acl_b05749f02ff23010cd78bcb62799b676</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_b05749f02ff23010cd78bcb62799b676">c89701342ff23010cd78bcb62799b610</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-09-22 05:59:36</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

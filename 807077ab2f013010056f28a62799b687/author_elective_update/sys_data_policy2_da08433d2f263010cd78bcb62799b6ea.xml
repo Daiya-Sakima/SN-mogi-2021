@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_data_policy2">
+    <sys_data_policy2 action="DELETE">
+        <active>true</active>
+        <apply_import_set>true</apply_import_set>
+        <apply_soap>true</apply_soap>
+        <conditions/>
+        <description>閲覧レベルによって値を入力する&#13;
+閲覧レベル  -&gt;  ID資格フラグ&#13;
+1 -&gt; 0,1,2&#13;
+2 -&gt; 1,2&#13;
+3 -&gt; 2</description>
+        <enforce_ui>true</enforce_ui>
+        <inherit>false</inherit>
+        <model_id/>
+        <model_table>x_562723_snmogi_kessai</model_table>
+        <reverse_if_false>false</reverse_if_false>
+        <short_description>ID資格フラグ設定</short_description>
+        <sys_class_name>sys_data_policy2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-09-13 07:13:46</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>da08433d2f263010cd78bcb62799b6ea</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>ID資格フラグ設定</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="決裁システム" source="x_562723_snmogi">807077ab2f013010056f28a62799b687</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="決裁システム">807077ab2f013010056f28a62799b687</sys_scope>
+        <sys_update_name>sys_data_policy2_da08433d2f263010cd78bcb62799b6ea</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-09-13 07:13:46</sys_updated_on>
+    </sys_data_policy2>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="決裁システム">807077ab2f013010056f28a62799b687</application>
+        <file_path/>
+        <instance_id>e03748e0db0b73002f68c597059619fd</instance_id>
+        <instance_name>dev89956</instance_name>
+        <name>sys_data_policy2_da08433d2f263010cd78bcb62799b6ea</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_data_policy2"><sys_data_policy2 action="INSERT_OR_UPDATE"><active>true</active><apply_import_set>true</apply_import_set><apply_soap>true</apply_soap><conditions/><description>閲覧レベルによって値を入力する&#13;
+閲覧レベル  -&gt;  ID資格フラグ&#13;
+1 -&gt; 0,1,2&#13;
+2 -&gt; 1,2&#13;
+3 -&gt; 2</description><enforce_ui>true</enforce_ui><inherit>false</inherit><model_id/><model_table>x_562723_snmogi_kessai</model_table><reverse_if_false>false</reverse_if_false><short_description>ID資格フラグ設定</short_description><sys_class_name>sys_data_policy2</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-09-13 07:13:46</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>da08433d2f263010cd78bcb62799b6ea</sys_id><sys_mod_count>0</sys_mod_count><sys_name>ID資格フラグ設定</sys_name><sys_overrides/><sys_package display_value="決裁システム" source="x_562723_snmogi">807077ab2f013010056f28a62799b687</sys_package><sys_policy/><sys_scope display_value="決裁システム">807077ab2f013010056f28a62799b687</sys_scope><sys_update_name>sys_data_policy2_da08433d2f263010cd78bcb62799b6ea</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-09-13 07:13:46</sys_updated_on></sys_data_policy2></record_update>]]></payload>
+        <payload_hash>1109120604</payload_hash>
+        <record_name>ID資格フラグ設定</record_name>
+        <reverted_from/>
+        <source>147077ab2f013010056f28a62799b689</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-09-13 07:13:46</sys_created_on>
+        <sys_id>0568473d2f263010cd78bcb62799b6a7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17bde0136cd0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-09-13 07:13:46</sys_updated_on>
+        <type>データポリシー</type>
+        <update_guid>0d68473df926301040f5e05a1fe26ea6</update_guid>
+        <update_guid_history>0d68473df926301040f5e05a1fe26ea6:1109120604</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-09-13 07:15:34</sys_created_on>
+        <sys_db_object display_value="" name="sys_data_policy2">sys_data_policy2</sys_db_object>
+        <sys_id>3892111bc7d34630a5c238387a7a2b21</sys_id>
+        <sys_metadata>da08433d2f263010cd78bcb62799b6ea</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>ID資格フラグ設定</sys_name>
+        <sys_package display_value="決裁システム" source="x_562723_snmogi">807077ab2f013010056f28a62799b687</sys_package>
+        <sys_parent display_value="決裁システム">dabb8ed82f913010056f28a62799b633</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="決裁システム">807077ab2f013010056f28a62799b687</sys_scope>
+        <sys_scope_delete display_value="">56e3d82ab4b847eeb7d50eac727ec071</sys_scope_delete>
+        <sys_update_name>sys_data_policy2_da08433d2f263010cd78bcb62799b6ea</sys_update_name>
+        <sys_update_version display_value="sys_data_policy2_da08433d2f263010cd78bcb62799b6ea">0568473d2f263010cd78bcb62799b6a7</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-09-13 07:15:34</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

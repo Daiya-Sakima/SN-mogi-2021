@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="決裁書記号一覧" max_length="40" name="x_562723_snmogi_kessaikigou" sizeclass="4" type="collection">
+        <element label="Department" mandatory="true" max_length="32" name="u_bu" reference="cmn_department" type="reference"/>
+        <element label="OtherDepartment" max_length="32" name="u_busonota" reference="cmn_department" type="reference"/>
+        <element display="true" label="決裁書記号" mandatory="true" max_length="10" name="u_kigou" type="string"/>
+        <element label="UseYear" mandatory="true" max_length="4" name="u_riyounendo" type="string"/>
+        <element label="Index" max_length="3" name="u_saiban" read_only="true" type="integer"/>
+        <index name="index">
+            <element name="u_busonota"/>
+        </index>
+        <index name="index2">
+            <element name="u_bu"/>
+        </index>
+    </element>
+</database>

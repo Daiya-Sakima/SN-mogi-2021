@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl">
+    <sys_security_acl action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <admin_overrides>true</admin_overrides>
+        <advanced>true</advanced>
+        <condition/>
+        <description>決定レベルごとのACL設定：一般・役付以上・管理職以上（読み込みのみ）</description>
+        <name>x_562723_snmogi_kessai</name>
+        <operation display_value="read">read</operation>
+        <script><![CDATA[var arrUtil = new global.ArrayUtil();
+var curIdFlg = current.u_id_title_flg.getDisplayValue();
+var grCurUser = new GlideRecord('sys_user');
+var curState = current.getValue("state");
+var curKiansya = current.opened_by.sys_id;
+var curUserDeptId = getUsrDeptRecord(gs.getUserID());
+// var curGouHa = current.u_approver_list_2.split(",");
+var curHatsugi = current.u_approver_3.sys_id;
+// var curSyonin = current.u_approver_list_4.split(",");
+var curGougi1Ids = current.u_approver_list_5.split(",");
+var curGougi2Ids = current.u_approver_list_6.split(",");
+// var curRyochi = current.u_approver_list_7.split(",");
+// var curKyoKettei = current.u_approver_list_8.split(",");
+// var curKettei = current.u_approver_9.sys_id;
+var getUsrAnswer;
+
+for (var i = 0; i < curGougi1Ids.length; i++) {
+    getUsrAnswer = getUsrDeptRecord(curGougi1Ids[i]);
+    curGougi1Ids[i] = getUsrAnswer;
+}
+
+for (var j = 0; j < curGougi2Ids.length; j++) {
+    getUsrAnswer = getUsrDeptRecord(curGougi2Ids[j]);
+    curGougi2Ids[j] = getUsrAnswer;
+}
+
+// if (curState >= 40 && (curKiansya != gs.getUserID() || (arrUtil.indexOf(curGouHa, gs.getUserID() != -1) || curHatsugi != gs.getUserID() || (arrUtil.indexOf(curSyonin, gs.getUserID() != -1)) || (arrUtil.indexOf(curRyochi, gs.getUserID() != -1)) || (arrUtil.indexOf(curKyoKettei, gs.getUserID() != -1)) || curKettei != gs.getUserID()))) {
+if (curState >= 40 && (curKiansya != gs.getUserID() || curHatsugi != gs.getUserID())) {
+    if (((curIdFlg == "0,1,2") && (arrUtil.indexOf(curGougi1Ids, curUserDeptId) != -1)) ||
+        ((curIdFlg == "0,1,2") && (arrUtil.indexOf(curGougi2Ids, curUserDeptId) != -1))) {
+        answer = true;
+    } else if (((curIdFlg == "1,2") && (arrUtil.indexOf(curGougi1Ids, curUserDeptId) != -1) && gs.hasRole("x_562723_snmogi.yakutuki")) ||
+        ((curIdFlg == "1,2") && (arrUtil.indexOf(curGougi2Ids, curUserDeptId) != -1) && gs.hasRole("x_562723_snmogi.yakutuki"))) {
+        answer = true;
+    } else if (((curIdFlg == "2") && (arrUtil.indexOf(curGougi1Ids, curUserDeptId) != -1) && gs.hasRole("x_562723_snmogi.kanrisyoku")) ||
+        ((curIdFlg == "2") && (arrUtil.indexOf(curGougi2Ids, curUserDeptId) != -1) && gs.hasRole("x_562723_snmogi.kanrisyoku"))) {
+        answer = true;
+    } else {
+        answer = false;
+    }
+} else {
+    answer = true;
+}
+
+function getUsrDeptRecord(ansDept) {
+    var grRcdUser = new GlideRecord('sys_user');
+    grRcdUser.get(ansDept);
+    var deptId = grRcdUser.department;
+    return deptId;
+}]]></script>
+        <sys_class_name>sys_security_acl</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-09-14 02:16:01</sys_created_on>
+        <sys_id>41ddcfc22f623010cd78bcb62799b6f0</sys_id>
+        <sys_mod_count>143</sys_mod_count>
+        <sys_name>x_562723_snmogi_kessai</sys_name>
+        <sys_package display_value="決裁システム" source="x_562723_snmogi">807077ab2f013010056f28a62799b687</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="決裁システム">807077ab2f013010056f28a62799b687</sys_scope>
+        <sys_update_name>sys_security_acl_41ddcfc22f623010cd78bcb62799b6f0</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-11-01 07:17:46</sys_updated_on>
+        <type display_value="record">record</type>
+    </sys_security_acl>
+</record_update>

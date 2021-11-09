@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <application display_value="決裁システム">3e4c8e1c2f913010056f28a62799b66f</application>
+        <assessment/>
+        <device_type/>
+        <filter table="x_562723_snmogi_kessai">u_hatsugibi&lt;=javascript:gs.endOfLastWeek()^state!=-10^ORstate!=-20^ORstate!=100^u_hina!=true^EQ<item endquery="false" field="u_hatsugibi" goto="false" newquery="false" operator="&lt;=" or="false" value="javascript:gs.endOfLastWeek()"/>
+            <item display_value="Denial" endquery="false" field="state" goto="false" newquery="false" operator="!=" or="false" value="-10"/>
+            <item display_value="Abandoned" endquery="false" field="state" goto="false" newquery="false" operator="!=" or="true" value="-20"/>
+            <item display_value="Determined" endquery="false" field="state" goto="false" newquery="false" operator="!=" or="true" value="100"/>
+            <item endquery="false" field="u_hina" goto="false" newquery="false" operator="!=" or="false" value="true"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter>
+        <hint>発議日から7日以上経った決裁申請（決定済・否認・廃案以外）を確認するための一覧画面</hint>
+        <homepage/>
+        <image/>
+        <link_type>LIST</link_type>
+        <map_page/>
+        <mobile_title>Kessais</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>x_562723_snmogi_kessai</name>
+        <order>400</order>
+        <override_menu_roles>false</override_menu_roles>
+        <query/>
+        <report/>
+        <roles>admin,x_562723_snmogi.user</roles>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-07-08 07:53:44</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>d10fca5c2f913010056f28a62799b616</sys_id>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_name>滞留（７日以上）</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="決裁システム" source="x_562723_snmogi">807077ab2f013010056f28a62799b687</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="決裁システム">807077ab2f013010056f28a62799b687</sys_scope>
+        <sys_update_name>sys_app_module_d10fca5c2f913010056f28a62799b616</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-10-29 01:42:58</sys_updated_on>
+        <timeline_page/>
+        <title>滞留（７日以上）</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+</record_update>

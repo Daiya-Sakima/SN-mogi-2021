@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="INSERT_OR_UPDATE">
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field>u_mng_meeting_report_day</field>
+        <mandatory>ignore</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-09-03 05:58:53</sys_created_on>
+        <sys_id>0457972a2fd23010cd78bcb62799b629</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>u_mng_meeting_report_day</sys_name>
+        <sys_package display_value="決裁システム" source="x_562723_snmogi">807077ab2f013010056f28a62799b687</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="決裁システム">807077ab2f013010056f28a62799b687</sys_scope>
+        <sys_update_name>sys_ui_policy_action_0457972a2fd23010cd78bcb62799b629</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-09-03 05:58:53</sys_updated_on>
+        <table>x_562723_snmogi_kessai</table>
+        <ui_policy display_value="UI制御(経営会議報告)">b1461be62fd23010cd78bcb62799b6a5</ui_policy>
+        <visible>true</visible>
+    </sys_ui_policy_action>
+</record_update>

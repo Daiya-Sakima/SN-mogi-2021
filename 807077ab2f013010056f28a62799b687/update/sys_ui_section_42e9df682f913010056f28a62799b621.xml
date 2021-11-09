@@ -1,0 +1,1025 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="決裁システム" section_id="42e9df682f913010056f28a62799b621" sys_domain="global" table="x_562723_snmogi_kessai" version="3" view="">
+        <sys_ui_annotation action="INSERT_OR_UPDATE">
+            <is_plain_text>false</is_plain_text>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-10-29 04:57:59</sys_created_on>
+            <sys_id>d472236c2fa33010cd78bcb62799b6b4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-10-29 04:57:59</sys_updated_on>
+            <text>※取締役会／社長　を選択した場合、決定者欄に発議者を設定してください。</text>
+            <type display_value="Info Box Blue">753f88a80f930000b12e6903cfe01206</type>
+        </sys_ui_annotation>
+        <sys_ui_annotation action="INSERT_OR_UPDATE">
+            <is_plain_text>false</is_plain_text>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-10-29 04:57:59</sys_created_on>
+            <sys_id>5072236c2fa33010cd78bcb62799b6b5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-10-29 04:57:59</sys_updated_on>
+            <text>※リーガルチェックの対象については「リーガルチェック運営基準書」を参照下さい。</text>
+            <type display_value="Info Box Blue">753f88a80f930000b12e6903cfe01206</type>
+        </sys_ui_annotation>
+        <sys_ui_annotation action="INSERT_OR_UPDATE">
+            <is_plain_text>false</is_plain_text>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-10-29 04:57:59</sys_created_on>
+            <sys_id>1472236c2fa33010cd78bcb62799b6b5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-10-29 04:57:59</sys_updated_on>
+            <text>取締役会／経営会議／社長　に報告する場合、報告予定日を入力してください。　ex)20xx年〇月〇日社長報告予定</text>
+            <type display_value="Info Box Blue">753f88a80f930000b12e6903cfe01206</type>
+        </sys_ui_annotation>
+        <sys_ui_annotation action="INSERT_OR_UPDATE">
+            <is_plain_text>false</is_plain_text>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-10-29 04:57:59</sys_created_on>
+            <sys_id>d472236c2fa33010cd78bcb62799b6b5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-10-29 04:57:59</sys_updated_on>
+            <text>※発議者欄には課の長であるマネージャーを設定してください。（執行役員決定案件は承認者欄に部長を設定）</text>
+            <type display_value="Info Box Blue">753f88a80f930000b12e6903cfe01206</type>
+        </sys_ui_annotation>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>state</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-10-29 04:58:00</sys_created_on>
+            <sys_id>6872236c2fa33010cd78bcb62799b6ca</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="決裁システム" display_value="決裁システム" name="x_562723_snmogi_kessai" sys_domain="global" view="Default view">42e9df682f913010056f28a62799b621</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-10-29 04:58:00</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_nendo</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-10-29 04:58:00</sys_created_on>
+            <sys_id>2072236c2fa33010cd78bcb62799b6cb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="決裁システム" display_value="決裁システム" name="x_562723_snmogi_kessai" sys_domain="global" view="Default view">42e9df682f913010056f28a62799b621</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-10-29 04:58:00</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_subject</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-10-29 04:58:00</sys_created_on>
+            <sys_id>a072236c2fa33010cd78bcb62799b6cb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="決裁システム" display_value="決裁システム" name="x_562723_snmogi_kessai" sys_domain="global" view="Default view">42e9df682f913010056f28a62799b621</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-10-29 04:58:00</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-10-29 04:58:00</sys_created_on>
+            <sys_id>2472236c2fa33010cd78bcb62799b6cb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="決裁システム" display_value="決裁システム" name="x_562723_snmogi_kessai" sys_domain="global" view="Default view">42e9df682f913010056f28a62799b621</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-10-29 04:58:00</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_kettei</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-10-29 04:58:00</sys_created_on>
+            <sys_id>a472236c2fa33010cd78bcb62799b6cb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="決裁システム" display_value="決裁システム" name="x_562723_snmogi_kessai" sys_domain="global" view="Default view">42e9df682f913010056f28a62799b621</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-10-29 04:58:00</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>d472236c2fa33010cd78bcb62799b6b4</element>
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-10-29 04:58:00</sys_created_on>
+            <sys_id>2872236c2fa33010cd78bcb62799b6cb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="決裁システム" display_value="決裁システム" name="x_562723_snmogi_kessai" sys_domain="global" view="Default view">42e9df682f913010056f28a62799b621</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-10-29 04:58:00</sys_updated_on>
+            <sys_user/>
+            <type>annotation</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_bunrui</element>
+            <position>6</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-10-29 04:58:00</sys_created_on>
+            <sys_id>a872236c2fa33010cd78bcb62799b6cb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="決裁システム" display_value="決裁システム" name="x_562723_snmogi_kessai" sys_domain="global" view="Default view">42e9df682f913010056f28a62799b621</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-10-29 04:58:00</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>5072236c2fa33010cd78bcb62799b6b5</element>
+            <position>7</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-10-29 04:58:00</sys_created_on>
+            <sys_id>2c72236c2fa33010cd78bcb62799b6cb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="決裁システム" display_value="決裁システム" name="x_562723_snmogi_kessai" sys_domain="global" view="Default view">42e9df682f913010056f28a62799b621</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-10-29 04:58:00</sys_updated_on>
+            <sys_user/>
+            <type>annotation</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>opened_by</element>
+            <position>8</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-10-29 04:58:00</sys_created_on>
+            <sys_id>ac72236c2fa33010cd78bcb62799b6cb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="決裁システム" display_value="決裁システム" name="x_562723_snmogi_kessai" sys_domain="global" view="Default view">42e9df682f913010056f28a62799b621</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-10-29 04:58:00</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>9</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-10-29 04:58:00</sys_created_on>
+            <sys_id>2072236c2fa33010cd78bcb62799b6cc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="決裁システム" display_value="決裁システム" name="x_562723_snmogi_kessai" sys_domain="global" view="Default view">42e9df682f913010056f28a62799b621</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-10-29 04:58:00</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_etsuran</element>
+            <position>10</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-10-29 04:58:00</sys_created_on>
+            <sys_id>a072236c2fa33010cd78bcb62799b6cc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="決裁システム" display_value="決裁システム" name="x_562723_snmogi_kessai" sys_domain="global" view="Default view">42e9df682f913010056f28a62799b621</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-10-29 04:58:00</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_kigou</element>
+            <position>11</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-10-29 04:58:00</sys_created_on>
+            <sys_id>2472236c2fa33010cd78bcb62799b6cc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="決裁システム" display_value="決裁システム" name="x_562723_snmogi_kessai" sys_domain="global" view="Default view">42e9df682f913010056f28a62799b621</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-10-29 04:58:00</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_hina</element>
+            <position>12</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-10-29 04:58:00</sys_created_on>
+            <sys_id>a472236c2fa33010cd78bcb62799b6cc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="決裁システム" display_value="決裁システム" name="x_562723_snmogi_kessai" sys_domain="global" view="Default view">42e9df682f913010056f28a62799b621</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-10-29 04:58:00</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_tablemei</element>
+            <position>13</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-10-29 04:58:00</sys_created_on>
+            <sys_id>2872236c2fa33010cd78bcb62799b6cc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="決裁システム" display_value="決裁システム" name="x_562723_snmogi_kessai" sys_domain="global" view="Default view">42e9df682f913010056f28a62799b621</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-10-29 04:58:00</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>14</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-10-29 04:58:00</sys_created_on>
+            <sys_id>a872236c2fa33010cd78bcb62799b6cc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="決裁システム" display_value="決裁システム" name="x_562723_snmogi_kessai" sys_domain="global" view="Default view">42e9df682f913010056f28a62799b621</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-10-29 04:58:00</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_biko1</element>
+            <position>15</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-10-29 04:58:00</sys_created_on>
+            <sys_id>2c72236c2fa33010cd78bcb62799b6cc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="決裁システム" display_value="決裁システム" name="x_562723_snmogi_kessai" sys_domain="global" view="Default view">42e9df682f913010056f28a62799b621</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-10-29 04:58:00</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_houkoku</element>
+            <position>16</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-10-29 04:58:00</sys_created_on>
+            <sys_id>ac72236c2fa33010cd78bcb62799b6cc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="決裁システム" display_value="決裁システム" name="x_562723_snmogi_kessai" sys_domain="global" view="Default view">42e9df682f913010056f28a62799b621</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-10-29 04:58:00</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>1472236c2fa33010cd78bcb62799b6b5</element>
+            <position>17</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-10-29 04:58:00</sys_created_on>
+            <sys_id>2072236c2fa33010cd78bcb62799b6cd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="決裁システム" display_value="決裁システム" name="x_562723_snmogi_kessai" sys_domain="global" view="Default view">42e9df682f913010056f28a62799b621</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-10-29 04:58:00</sys_updated_on>
+            <sys_user/>
+            <type>annotation</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_body</element>
+            <position>18</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-10-29 04:58:00</sys_created_on>
+            <sys_id>a072236c2fa33010cd78bcb62799b6cd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="決裁システム" display_value="決裁システム" name="x_562723_snmogi_kessai" sys_domain="global" view="Default view">42e9df682f913010056f28a62799b621</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-10-29 04:58:00</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_tenpu</element>
+            <position>19</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-10-29 04:58:00</sys_created_on>
+            <sys_id>2472236c2fa33010cd78bcb62799b6cd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="決裁システム" display_value="決裁システム" name="x_562723_snmogi_kessai" sys_domain="global" view="Default view">42e9df682f913010056f28a62799b621</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-10-29 04:58:00</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>approver_list_2</element>
+            <position>20</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-10-29 04:58:00</sys_created_on>
+            <sys_id>a472236c2fa33010cd78bcb62799b6cd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="決裁システム" display_value="決裁システム" name="x_562723_snmogi_kessai" sys_domain="global" view="Default view">42e9df682f913010056f28a62799b621</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-10-29 04:58:00</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_comment2</element>
+            <position>21</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-10-29 04:58:00</sys_created_on>
+            <sys_id>2872236c2fa33010cd78bcb62799b6cd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="決裁システム" display_value="決裁システム" name="x_562723_snmogi_kessai" sys_domain="global" view="Default view">42e9df682f913010056f28a62799b621</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-10-29 04:58:00</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_approver_3</element>
+            <position>22</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-10-29 04:58:00</sys_created_on>
+            <sys_id>a872236c2fa33010cd78bcb62799b6cd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="決裁システム" display_value="決裁システム" name="x_562723_snmogi_kessai" sys_domain="global" view="Default view">42e9df682f913010056f28a62799b621</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-10-29 04:58:00</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>d472236c2fa33010cd78bcb62799b6b5</element>
+            <position>23</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-10-29 04:58:00</sys_created_on>
+            <sys_id>2c72236c2fa33010cd78bcb62799b6cd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="決裁システム" display_value="決裁システム" name="x_562723_snmogi_kessai" sys_domain="global" view="Default view">42e9df682f913010056f28a62799b621</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-10-29 04:58:00</sys_updated_on>
+            <sys_user/>
+            <type>annotation</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_hatsugisyadept</element>
+            <position>24</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-10-29 04:58:00</sys_created_on>
+            <sys_id>ac72236c2fa33010cd78bcb62799b6cd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="決裁システム" display_value="決裁システム" name="x_562723_snmogi_kessai" sys_domain="global" view="Default view">42e9df682f913010056f28a62799b621</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-10-29 04:58:00</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_comment3</element>
+            <position>25</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-10-29 04:58:00</sys_created_on>
+            <sys_id>2072236c2fa33010cd78bcb62799b6ce</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="決裁システム" display_value="決裁システム" name="x_562723_snmogi_kessai" sys_domain="global" view="Default view">42e9df682f913010056f28a62799b621</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-10-29 04:58:00</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_approver_list_4</element>
+            <position>26</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-10-29 04:58:00</sys_created_on>
+            <sys_id>a072236c2fa33010cd78bcb62799b6ce</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="決裁システム" display_value="決裁システム" name="x_562723_snmogi_kessai" sys_domain="global" view="Default view">42e9df682f913010056f28a62799b621</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-10-29 04:58:00</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_comment4</element>
+            <position>27</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-10-29 04:58:00</sys_created_on>
+            <sys_id>2472236c2fa33010cd78bcb62799b6ce</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="決裁システム" display_value="決裁システム" name="x_562723_snmogi_kessai" sys_domain="global" view="Default view">42e9df682f913010056f28a62799b621</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-10-29 04:58:00</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_approver_list_5</element>
+            <position>28</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-10-29 04:58:00</sys_created_on>
+            <sys_id>a472236c2fa33010cd78bcb62799b6ce</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="決裁システム" display_value="決裁システム" name="x_562723_snmogi_kessai" sys_domain="global" view="Default view">42e9df682f913010056f28a62799b621</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-10-29 04:58:00</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_cc5</element>
+            <position>29</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-10-29 04:58:00</sys_created_on>
+            <sys_id>2872236c2fa33010cd78bcb62799b6ce</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="決裁システム" display_value="決裁システム" name="x_562723_snmogi_kessai" sys_domain="global" view="Default view">42e9df682f913010056f28a62799b621</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-10-29 04:58:00</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_comment5</element>
+            <position>30</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-10-29 04:58:00</sys_created_on>
+            <sys_id>a872236c2fa33010cd78bcb62799b6ce</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="決裁システム" display_value="決裁システム" name="x_562723_snmogi_kessai" sys_domain="global" view="Default view">42e9df682f913010056f28a62799b621</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-10-29 04:58:00</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_approver_list_6</element>
+            <position>31</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-10-29 04:58:00</sys_created_on>
+            <sys_id>2c72236c2fa33010cd78bcb62799b6ce</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="決裁システム" display_value="決裁システム" name="x_562723_snmogi_kessai" sys_domain="global" view="Default view">42e9df682f913010056f28a62799b621</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-10-29 04:58:00</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_cc6</element>
+            <position>32</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-10-29 04:58:00</sys_created_on>
+            <sys_id>ac72236c2fa33010cd78bcb62799b6ce</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="決裁システム" display_value="決裁システム" name="x_562723_snmogi_kessai" sys_domain="global" view="Default view">42e9df682f913010056f28a62799b621</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-10-29 04:58:00</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_comment6</element>
+            <position>33</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-10-29 04:58:00</sys_created_on>
+            <sys_id>2072236c2fa33010cd78bcb62799b6cf</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="決裁システム" display_value="決裁システム" name="x_562723_snmogi_kessai" sys_domain="global" view="Default view">42e9df682f913010056f28a62799b621</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-10-29 04:58:00</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_approver_list_7</element>
+            <position>34</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-10-29 04:58:00</sys_created_on>
+            <sys_id>a072236c2fa33010cd78bcb62799b6cf</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="決裁システム" display_value="決裁システム" name="x_562723_snmogi_kessai" sys_domain="global" view="Default view">42e9df682f913010056f28a62799b621</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-10-29 04:58:00</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_comment7</element>
+            <position>35</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-10-29 04:58:00</sys_created_on>
+            <sys_id>2472236c2fa33010cd78bcb62799b6cf</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="決裁システム" display_value="決裁システム" name="x_562723_snmogi_kessai" sys_domain="global" view="Default view">42e9df682f913010056f28a62799b621</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-10-29 04:58:00</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_approver_list_8</element>
+            <position>36</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-10-29 04:58:00</sys_created_on>
+            <sys_id>a472236c2fa33010cd78bcb62799b6cf</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="決裁システム" display_value="決裁システム" name="x_562723_snmogi_kessai" sys_domain="global" view="Default view">42e9df682f913010056f28a62799b621</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-10-29 04:58:00</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_comment8</element>
+            <position>37</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-10-29 04:58:00</sys_created_on>
+            <sys_id>2872236c2fa33010cd78bcb62799b6cf</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="決裁システム" display_value="決裁システム" name="x_562723_snmogi_kessai" sys_domain="global" view="Default view">42e9df682f913010056f28a62799b621</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-10-29 04:58:00</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_approver_9</element>
+            <position>38</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-10-29 04:58:00</sys_created_on>
+            <sys_id>a872236c2fa33010cd78bcb62799b6cf</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="決裁システム" display_value="決裁システム" name="x_562723_snmogi_kessai" sys_domain="global" view="Default view">42e9df682f913010056f28a62799b621</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-10-29 04:58:00</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_comment9</element>
+            <position>39</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-10-29 04:58:00</sys_created_on>
+            <sys_id>2c72236c2fa33010cd78bcb62799b6cf</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="決裁システム" display_value="決裁システム" name="x_562723_snmogi_kessai" sys_domain="global" view="Default view">42e9df682f913010056f28a62799b621</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-10-29 04:58:00</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_houkokusya</element>
+            <position>40</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-10-29 04:58:00</sys_created_on>
+            <sys_id>ac72236c2fa33010cd78bcb62799b6cf</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="決裁システム" display_value="決裁システム" name="x_562723_snmogi_kessai" sys_domain="global" view="Default view">42e9df682f913010056f28a62799b621</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-10-29 04:58:00</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_sonota1</element>
+            <position>41</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-10-29 04:58:00</sys_created_on>
+            <sys_id>2072236c2fa33010cd78bcb62799b6d0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="決裁システム" display_value="決裁システム" name="x_562723_snmogi_kessai" sys_domain="global" view="Default view">42e9df682f913010056f28a62799b621</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-10-29 04:58:00</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_sonota2</element>
+            <position>42</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-10-29 04:58:00</sys_created_on>
+            <sys_id>a072236c2fa33010cd78bcb62799b6d0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="決裁システム" display_value="決裁システム" name="x_562723_snmogi_kessai" sys_domain="global" view="Default view">42e9df682f913010056f28a62799b621</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-10-29 04:58:00</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_jiki</element>
+            <position>43</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-10-29 04:58:00</sys_created_on>
+            <sys_id>2472236c2fa33010cd78bcb62799b6d0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="決裁システム" display_value="決裁システム" name="x_562723_snmogi_kessai" sys_domain="global" view="Default view">42e9df682f913010056f28a62799b621</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-10-29 04:58:00</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>44</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-10-29 04:58:00</sys_created_on>
+            <sys_id>a472236c2fa33010cd78bcb62799b6d0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="決裁システム" display_value="決裁システム" name="x_562723_snmogi_kessai" sys_domain="global" view="Default view">42e9df682f913010056f28a62799b621</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-10-29 04:58:00</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_keihi</element>
+            <position>45</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-10-29 04:58:00</sys_created_on>
+            <sys_id>2872236c2fa33010cd78bcb62799b6d0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="決裁システム" display_value="決裁システム" name="x_562723_snmogi_kessai" sys_domain="global" view="Default view">42e9df682f913010056f28a62799b621</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-10-29 04:58:00</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_yosantantou</element>
+            <position>46</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-10-29 04:58:00</sys_created_on>
+            <sys_id>a872236c2fa33010cd78bcb62799b6d0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="決裁システム" display_value="決裁システム" name="x_562723_snmogi_kessai" sys_domain="global" view="Default view">42e9df682f913010056f28a62799b621</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-10-29 04:58:00</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_himokucode</element>
+            <position>47</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-10-29 04:58:00</sys_created_on>
+            <sys_id>2c72236c2fa33010cd78bcb62799b6d0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="決裁システム" display_value="決裁システム" name="x_562723_snmogi_kessai" sys_domain="global" view="Default view">42e9df682f913010056f28a62799b621</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-10-29 04:58:00</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_himokumei</element>
+            <position>48</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-10-29 04:58:00</sys_created_on>
+            <sys_id>ac72236c2fa33010cd78bcb62799b6d0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="決裁システム" display_value="決裁システム" name="x_562723_snmogi_kessai" sys_domain="global" view="Default view">42e9df682f913010056f28a62799b621</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-10-29 04:58:00</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_yosangaku</element>
+            <position>49</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-10-29 04:58:00</sys_created_on>
+            <sys_id>2072236c2fa33010cd78bcb62799b6d1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="決裁システム" display_value="決裁システム" name="x_562723_snmogi_kessai" sys_domain="global" view="Default view">42e9df682f913010056f28a62799b621</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-10-29 04:58:00</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_yosannai</element>
+            <position>50</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-10-29 04:58:00</sys_created_on>
+            <sys_id>a072236c2fa33010cd78bcb62799b6d1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="決裁システム" display_value="決裁システム" name="x_562723_snmogi_kessai" sys_domain="global" view="Default view">42e9df682f913010056f28a62799b621</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-10-29 04:58:00</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_tuikayosan</element>
+            <position>51</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-10-29 04:58:00</sys_created_on>
+            <sys_id>2472236c2fa33010cd78bcb62799b6d1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="決裁システム" display_value="決裁システム" name="x_562723_snmogi_kessai" sys_domain="global" view="Default view">42e9df682f913010056f28a62799b621</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-10-29 04:58:00</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_kumikaeyosan</element>
+            <position>52</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-10-29 04:58:00</sys_created_on>
+            <sys_id>a472236c2fa33010cd78bcb62799b6d1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="決裁システム" display_value="決裁システム" name="x_562723_snmogi_kessai" sys_domain="global" view="Default view">42e9df682f913010056f28a62799b621</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-10-29 04:58:00</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_request_for_consideration</element>
+            <position>53</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-10-29 04:58:00</sys_created_on>
+            <sys_id>2872236c2fa33010cd78bcb62799b6d1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="決裁システム" display_value="決裁システム" name="x_562723_snmogi_kessai" sys_domain="global" view="Default view">42e9df682f913010056f28a62799b621</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-10-29 04:58:00</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_consideration_requester</element>
+            <position>54</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-10-29 04:58:00</sys_created_on>
+            <sys_id>a872236c2fa33010cd78bcb62799b6d1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="決裁システム" display_value="決裁システム" name="x_562723_snmogi_kessai" sys_domain="global" view="Default view">42e9df682f913010056f28a62799b621</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-10-29 04:58:00</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_examination_comment</element>
+            <position>55</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-10-29 04:58:00</sys_created_on>
+            <sys_id>2c72236c2fa33010cd78bcb62799b6d1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="決裁システム" display_value="決裁システム" name="x_562723_snmogi_kessai" sys_domain="global" view="Default view">42e9df682f913010056f28a62799b621</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-10-29 04:58:00</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>56</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-10-29 04:58:00</sys_created_on>
+            <sys_id>ac72236c2fa33010cd78bcb62799b6d1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="決裁システム" display_value="決裁システム" name="x_562723_snmogi_kessai" sys_domain="global" view="Default view">42e9df682f913010056f28a62799b621</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-10-29 04:58:00</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_besou</element>
+            <position>57</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-10-29 04:58:00</sys_created_on>
+            <sys_id>2072236c2fa33010cd78bcb62799b6d2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="決裁システム" display_value="決裁システム" name="x_562723_snmogi_kessai" sys_domain="global" view="Default view">42e9df682f913010056f28a62799b621</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-10-29 04:58:00</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_shiryoumei</element>
+            <position>58</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-10-29 04:58:00</sys_created_on>
+            <sys_id>a072236c2fa33010cd78bcb62799b6d2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="決裁システム" display_value="決裁システム" name="x_562723_snmogi_kessai" sys_domain="global" view="Default view">42e9df682f913010056f28a62799b621</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-10-29 04:58:00</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_mng_meeting</element>
+            <position>59</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-10-29 04:58:00</sys_created_on>
+            <sys_id>2472236c2fa33010cd78bcb62799b6d2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="決裁システム" display_value="決裁システム" name="x_562723_snmogi_kessai" sys_domain="global" view="Default view">42e9df682f913010056f28a62799b621</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-10-29 04:58:00</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_mng_meetday</element>
+            <position>60</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-10-29 04:58:00</sys_created_on>
+            <sys_id>a472236c2fa33010cd78bcb62799b6d2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="決裁システム" display_value="決裁システム" name="x_562723_snmogi_kessai" sys_domain="global" view="Default view">42e9df682f913010056f28a62799b621</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-10-29 04:58:00</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_yotei_kaishi_jikoku_mng_meeting</element>
+            <position>61</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-10-29 04:58:00</sys_created_on>
+            <sys_id>2872236c2fa33010cd78bcb62799b6d2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="決裁システム" display_value="決裁システム" name="x_562723_snmogi_kessai" sys_domain="global" view="Default view">42e9df682f913010056f28a62799b621</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-10-29 04:58:00</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_yotei_syuryo_jikoku_mng_meeting</element>
+            <position>62</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-10-29 04:58:00</sys_created_on>
+            <sys_id>a872236c2fa33010cd78bcb62799b6d2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="決裁システム" display_value="決裁システム" name="x_562723_snmogi_kessai" sys_domain="global" view="Default view">42e9df682f913010056f28a62799b621</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-10-29 04:58:00</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_mng_meeting_report</element>
+            <position>63</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-10-29 04:58:00</sys_created_on>
+            <sys_id>2c72236c2fa33010cd78bcb62799b6d2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="決裁システム" display_value="決裁システム" name="x_562723_snmogi_kessai" sys_domain="global" view="Default view">42e9df682f913010056f28a62799b621</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-10-29 04:58:00</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_mng_meeting_report_day</element>
+            <position>64</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-10-29 04:58:00</sys_created_on>
+            <sys_id>ac72236c2fa33010cd78bcb62799b6d2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="決裁システム" display_value="決裁システム" name="x_562723_snmogi_kessai" sys_domain="global" view="Default view">42e9df682f913010056f28a62799b621</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-10-29 04:58:00</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_board_report</element>
+            <position>65</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-10-29 04:58:00</sys_created_on>
+            <sys_id>2072236c2fa33010cd78bcb62799b6d3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="決裁システム" display_value="決裁システム" name="x_562723_snmogi_kessai" sys_domain="global" view="Default view">42e9df682f913010056f28a62799b621</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-10-29 04:58:00</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_board_report_day</element>
+            <position>66</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-10-29 04:58:00</sys_created_on>
+            <sys_id>a072236c2fa33010cd78bcb62799b6d3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="決裁システム" display_value="決裁システム" name="x_562723_snmogi_kessai" sys_domain="global" view="Default view">42e9df682f913010056f28a62799b621</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-10-29 04:58:00</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_to_report_to_the_president</element>
+            <position>67</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-10-29 04:58:00</sys_created_on>
+            <sys_id>2472236c2fa33010cd78bcb62799b6d3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="決裁システム" display_value="決裁システム" name="x_562723_snmogi_kessai" sys_domain="global" view="Default view">42e9df682f913010056f28a62799b621</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-10-29 04:58:00</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>決裁システム</caption>
+            <header>false</header>
+            <name>x_562723_snmogi_kessai</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-07-09 07:59:25</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>42e9df682f913010056f28a62799b621</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_name>x_562723_snmogi_kessai</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="決裁システム" source="x_562723_snmogi">807077ab2f013010056f28a62799b687</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="決裁システム">807077ab2f013010056f28a62799b687</sys_scope>
+            <sys_update_name>sys_ui_section_42e9df682f913010056f28a62799b621</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-09-27 08:12:28</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>
