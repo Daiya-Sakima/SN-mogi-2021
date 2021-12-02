@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties">
+    <sys_properties action="INSERT_OR_UPDATE">
+        <choices/>
+        <description>発議日から７日以上経過したレコードを取得するためのプロパティ</description>
+        <ignore_cache>true</ignore_cache>
+        <is_private>false</is_private>
+        <name>x_562723_snmogi.dunning.aftertime</name>
+        <read_roles>x_562723_snmogi.user</read_roles>
+        <suffix>dunning.aftertime</suffix>
+        <sys_class_name>sys_properties</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-11-30 05:19:46</sys_created_on>
+        <sys_id>c628544f2f000110cd78bcb62799b6c5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_562723_snmogi.dunning.aftertime</sys_name>
+        <sys_package display_value="決裁システム" source="x_562723_snmogi">807077ab2f013010056f28a62799b687</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="決裁システム">807077ab2f013010056f28a62799b687</sys_scope>
+        <sys_update_name>sys_properties_c628544f2f000110cd78bcb62799b6c5</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-11-30 05:19:46</sys_updated_on>
+        <type>integer</type>
+        <value>7</value>
+        <write_roles>x_562723_snmogi.user</write_roles>
+    </sys_properties>
+    <sys_translated_text action="delete_multiple" query="documentkey=c628544f2f000110cd78bcb62799b6c5"/>
+</record_update>
