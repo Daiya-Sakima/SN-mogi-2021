@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_application">
+    <sys_app_application action="DELETE">
+        <active>true</active>
+        <category display_value="Custom Applications">e0355b31ef303000a61d5a3615c0fb78</category>
+        <description>決裁書の起票、管理をおこなう。</description>
+        <device_type>browser</device_type>
+        <hint/>
+        <name/>
+        <order>100</order>
+        <roles>x_562723_snmogi.Kessai admin</roles>
+        <sys_class_name>sys_app_application</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-07-08 06:56:54</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>3ec1c2142f913010056f28a62799b648</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>決裁システム</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="決裁システム" source="x_562723_snmogi">807077ab2f013010056f28a62799b687</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="決裁システム">807077ab2f013010056f28a62799b687</sys_scope>
+        <sys_update_name>sys_app_application_3ec1c2142f913010056f28a62799b648</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-07-08 07:06:34</sys_updated_on>
+        <title>決裁システム</title>
+        <view_name/>
+    </sys_app_application>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="決裁システム">807077ab2f013010056f28a62799b687</application>
+        <file_path/>
+        <instance_id>fc44f3d6dbb0ef44b2e05d00cf96196c</instance_id>
+        <instance_name>dev71432</instance_name>
+        <name>sys_app_application_3ec1c2142f913010056f28a62799b648</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_application"><sys_app_application action="INSERT_OR_UPDATE"><active>true</active><category display_value="Custom Applications">e0355b31ef303000a61d5a3615c0fb78</category><description>決裁書の起票、管理をおこなう。</description><device_type>browser</device_type><hint/><name/><order>100</order><roles>x_562723_snmogi.Kessai admin</roles><sys_class_name>sys_app_application</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-07-08 06:56:54</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>3ec1c2142f913010056f28a62799b648</sys_id><sys_mod_count>2</sys_mod_count><sys_name>決裁システム</sys_name><sys_overrides/><sys_package display_value="決裁システム" source="x_562723_snmogi">807077ab2f013010056f28a62799b687</sys_package><sys_policy/><sys_scope display_value="決裁システム">807077ab2f013010056f28a62799b687</sys_scope><sys_update_name>sys_app_application_3ec1c2142f913010056f28a62799b648</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-07-08 07:06:34</sys_updated_on><title>決裁システム</title><view_name/></sys_app_application></record_update>]]></payload>
+        <payload_hash>141639790</payload_hash>
+        <record_name>決裁システム</record_name>
+        <reverted_from/>
+        <source>147077ab2f013010056f28a62799b689</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-07-08 07:06:35</sys_created_on>
+        <sys_id>6234c2942f913010056f28a62799b65d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17a84f08cad0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-07-08 07:06:35</sys_updated_on>
+        <type>Application Menu</type>
+        <update_guid>ea34c29449913010545bd752fbe5525c</update_guid>
+        <update_guid_history>ea34c29449913010545bd752fbe5525c:141639790,12720e144e9130102213947b737ca1e8:-1662943556,05024614149130107329f5e93b749fa8:1979614421</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="決裁システム">579b861c2f913010056f28a62799b6b8</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-07-08 07:38:52</sys_created_on>
+        <sys_db_object display_value="" name="sys_app_application">sys_app_application</sys_db_object>
+        <sys_id>11c1cc586c84463482734988a7baf5c4</sys_id>
+        <sys_metadata>3ec1c2142f913010056f28a62799b648</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>決裁システム</sys_name>
+        <sys_package display_value="決裁システム" source="x_562723_snmogi">807077ab2f013010056f28a62799b687</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="決裁システム">807077ab2f013010056f28a62799b687</sys_scope>
+        <sys_scope_delete display_value="">56e3d82ab4b847eeb7d50eac727ec071</sys_scope_delete>
+        <sys_update_name>sys_app_application_3ec1c2142f913010056f28a62799b648</sys_update_name>
+        <sys_update_version display_value="sys_app_application_3ec1c2142f913010056f28a62799b648">6234c2942f913010056f28a62799b65d</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-07-08 07:38:52</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

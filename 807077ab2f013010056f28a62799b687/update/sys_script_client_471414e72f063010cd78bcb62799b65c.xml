@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description>レコードに設定されている各担当者、およびステータスによって、対象のフィールドを操作可能とする</description>
+        <field>sla_due</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>UI制御（担当者別設定）</name>
+        <order/>
+        <script><![CDATA[function onLoad() {
+    // 各担当者変数宣言
+    var curOpener = g_form.getValue('opened_by'); // 起案者
+    var curHatsugi = g_form.getValue('u_approver_3'); // 発議者
+    var curUser = g_user.userID; // 操作者
+    var curKyodoHatsugi = g_form.getValue('approver_list_2'); // 共同発議者
+    var curSyounin = g_form.getValue('u_approver_list_4'); // 承認者
+    var curGougi1 = g_form.getValue('u_approver_list_5'); // 合議１担当者
+    var curGougi1CC = g_form.getValue('u_cc5'); // 合議１CC
+    var curGougi2 = g_form.getValue('u_approver_list_6'); // 合議２担当者
+    var curGougi2CC = g_form.getValue('u_cc6'); // 合議２CC
+    var curRyouchi = g_form.getValue('u_approver_list_7'); // 了知者
+    var curKyodoKettei = g_form.getValue('u_approver_list_8'); // 共同決定者
+    var curKettei = g_form.getValue('u_approver_9'); // 決定者
+    var curState = g_form.getValue('state'); // 状況(state)
+
+    // 起案者は常に編集不可
+    g_form.setDisabled('opened_by', true);
+
+    //一度、すべての制御対象フィールドを編集不可に設定する
+    g_form.setDisabled('u_subject', true);
+    g_form.setDisabled('u_bunrui', true);
+    g_form.setDisabled('u_kettei', true);
+    g_form.setDisabled('u_houkoku', true);
+    g_form.setDisabled('u_etsuran', true);
+    g_form.setDisabled('u_kigou', true);
+    g_form.setDisabled('u_hina', true);
+    g_form.setDisabled('u_tablemei', true);
+    g_form.setDisabled('u_hina', true);
+    g_form.setDisabled('u_houkoku', true);
+    g_form.setDisabled('u_body', true);
+    g_form.setDisabled('u_tenpu', true);
+    g_form.setDisabled('u_approver_3', true);
+    g_form.setDisabled('u_jiki', true);
+    g_form.setDisabled('u_keihi', true);
+    g_form.setDisabled('u_yosantantou', true);
+    g_form.setDisabled('u_himokucode', true);
+    g_form.setDisabled('u_himokumei', true);
+    g_form.setDisabled('u_yosangaku', true);
+    g_form.setDisabled('u_yosannai', true);
+    g_form.setDisabled('u_tuikayosan', true);
+    g_form.setDisabled('u_kumikaeyosan', true);
+    g_form.setDisabled('u_besou', true);
+    g_form.setDisabled('u_shiryoumei', true);
+    g_form.setDisabled('u_biko1', true);
+    g_form.setDisabled('u_hina', true);
+    g_form.setDisabled('approver_list_2', true);
+    g_form.setDisabled('u_comment2', true);
+    g_form.setDisabled('u_approver_3', true);
+    g_form.setDisabled('u_approver_list_4', true);
+    g_form.setDisabled('u_comment4', true);
+    g_form.setDisabled('u_comment3', true);
+    g_form.setDisabled('u_approver_list_5', true);
+    g_form.setDisabled('u_cc5', true);
+    g_form.setDisabled('u_comment5', true);
+    g_form.setDisabled('u_approver_list_6', true);
+    g_form.setDisabled('u_cc6', true);
+    g_form.setDisabled('u_comment6', true);
+    g_form.setDisabled('u_approver_list_7', true);
+    g_form.setDisabled('u_comment7', true);
+    g_form.setDisabled('u_approver_list_8', true);
+    g_form.setDisabled('u_comment8', true);
+    g_form.setDisabled('u_approver_9', true);
+    g_form.setDisabled('u_comment9', true);
+    g_form.setDisabled('u_houkokusya', true);
+    g_form.setDisabled('u_sonota1', true);
+    g_form.setDisabled('u_juuyou', true);
+    g_form.setDisabled('u_mng_meeting', true);
+    g_form.setDisabled('u_mng_meetday', true);
+    g_form.setDisabled('u_yotei_kaishi_jikoku_mng_meeting', true);
+    g_form.setDisabled('u_yotei_syuryo_jikoku_mng_meeting', true);
+    g_form.setDisabled('u_mng_meeting_report', true);
+    g_form.setDisabled('u_mng_meeting_report_day', true);
+    g_form.setDisabled('u_board_report', true);
+    g_form.setDisabled('u_board_report_day', true);
+    g_form.setDisabled('u_to_report_to_the_president', true);
+    g_form.setDisabled('u_request_for_consideration', true);
+    g_form.setDisabled('u_consideration_requester', true);
+    g_form.setDisabled('u_examination_comment', true);
+	
+	// 操作者が起案者、発議者の場合、備考欄の入力を許可
+	if ((curOpener == curUser) || (curHatsugi == curUser))  {
+		g_form.setDisabled('u_biko1', false);
+		}
+
+    // 状況が起案中、訂正中の場合、かつ、
+    if (curState == "0" || curState == "-1") {
+        // 操作者が起案者、または発議者の場合、編集可能
+        if ((curOpener == curUser) || (curHatsugi == curUser)) {
+            g_form.setDisabled('u_subject', false);
+            g_form.setDisabled('u_bunrui', false);
+            g_form.setDisabled('u_kettei', false);
+            g_form.setDisabled('u_houkoku', false);
+            g_form.setDisabled('u_etsuran', false);
+            g_form.setDisabled('u_kigou', false);
+            g_form.setDisabled('u_hina', false);
+            g_form.setDisabled('u_tablemei', false);
+            g_form.setDisabled('u_hina', false);
+            g_form.setDisabled('u_houkoku', false);
+            g_form.setDisabled('u_body', false);
+            g_form.setDisabled('u_tenpu', false);
+            g_form.setDisabled('u_approver_3', false);
+            g_form.setDisabled('u_jiki', false);
+            g_form.setDisabled('u_keihi', false);
+            g_form.setDisabled('u_yosantantou', false);
+            g_form.setDisabled('u_himokucode', false);
+            g_form.setDisabled('u_himokumei', false);
+            g_form.setDisabled('u_yosangaku', false);
+            g_form.setDisabled('u_yosannai', false);
+            g_form.setDisabled('u_tuikayosan', false);
+            g_form.setDisabled('u_kumikaeyosan', false);
+            g_form.setDisabled('u_besou', false);
+            g_form.setDisabled('u_shiryoumei', false);
+//             g_form.setDisabled('u_biko1', false);
+            g_form.setDisabled('u_hina', false);
+            g_form.setDisabled('approver_list_2', false);
+            g_form.setDisabled('u_comment2', false);
+            g_form.setDisabled('u_approver_3', false);
+            g_form.setDisabled('u_approver_list_4', false);
+            g_form.setDisabled('u_comment4', false);
+            g_form.setDisabled('u_comment3', false);
+            g_form.setDisabled('u_comment4', false);
+            g_form.setDisabled('u_approver_list_5', false);
+            g_form.setDisabled('u_cc5', false);
+            g_form.setDisabled('u_comment5', false);
+            g_form.setDisabled('u_approver_list_6', false);
+            g_form.setDisabled('u_cc6', false);
+            g_form.setDisabled('u_comment6', false);
+            g_form.setDisabled('u_approver_list_7', false);
+            g_form.setDisabled('u_comment7', false);
+            g_form.setDisabled('u_approver_list_8', false);
+            g_form.setDisabled('u_comment8', false);
+            g_form.setDisabled('u_approver_9', false);
+            g_form.setDisabled('u_comment9', false);
+            g_form.setDisabled('u_houkokusya', false);
+            g_form.setDisabled('u_sonota1', false);
+            g_form.setDisabled('u_juuyou', false);
+            g_form.setDisabled('u_mng_meeting', false);
+            g_form.setDisabled('u_mng_meetday', false);
+            g_form.setDisabled('u_yotei_kaishi_jikoku_mng_meeting', false);
+            g_form.setDisabled('u_yotei_syuryo_jikoku_mng_meeting', false);
+            g_form.setDisabled('u_mng_meeting_report', false);
+            g_form.setDisabled('u_mng_meeting_report_day', false);
+            g_form.setDisabled('u_board_report', false);
+            g_form.setDisabled('u_board_report_day', false);
+            g_form.setDisabled('u_to_report_to_the_president', false);
+            g_form.setDisabled('u_request_for_consideration', false);
+            g_form.setDisabled('u_consideration_requester', false);
+            g_form.setDisabled('u_examination_comment', false);
+            return;
+
+            // 操作者が起案者、または発議者以外の場合、編集不可
+        } else {
+            // 何もしない
+            return;
+        }
+
+    } else {
+        // 各ステータスによって編集可能フィールドを変更する
+        switch (curState) {
+            // リーガルチェック依頼中
+            case '10':
+                break;
+                // 共同発議依頼中
+            case '20':
+                if (curKyodoHatsugi.indexOf(curUser) != -1) {
+                    g_form.setDisabled('u_comment2', false);
+                }
+                break;
+                // 発議依頼中
+            case '30':
+                if (curHatsugi.indexOf(curUser) != -1) {
+                    g_form.setDisabled('u_comment3', false);
+                }
+                break;
+                // 承認依頼中
+            case '40':
+                if (curSyounin.indexOf(curUser) != -1) {
+                    g_form.setDisabled('u_comment4', false);
+                }
+                break;
+                // 合議１依頼中
+            case '50':
+                if ((curGougi1.indexOf(curUser) != -1) || (curGougi1CC.indexOf(curUser) != -1)) {
+                    g_form.setDisabled('u_comment5', false);
+                }
+                break;
+                // 合議２依頼中
+            case '60':
+                if ((curGougi2.indexOf(curUser) != -1) || (curGougi2CC.indexOf(curUser) != -1)) {
+                    g_form.setDisabled('u_comment6', false);
+                }
+                break;
+                // 了知依頼中
+            case '70':
+                if (curRyouchi.indexOf(curUser) != -1) {
+                    g_form.setDisabled('u_comment7', false);
+                }
+                break;
+                // 共同決定依頼中
+            case '80':
+                if (curKyodoKettei.indexOf(curUser) != -1) {
+                    g_form.setDisabled('u_comment8', false);
+                }
+                break;
+                // 決定依頼中
+            case '90':
+                if (curKettei.indexOf(curUser) != -1) {
+                    g_form.setDisabled('u_comment9', false);
+                }
+                break;
+            default:
+                break;
+        }
+    }
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-08-24 08:09:59</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>471414e72f063010cd78bcb62799b65c</sys_id>
+        <sys_mod_count>62</sys_mod_count>
+        <sys_name>UI制御（担当者別設定）</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="決裁システム" source="x_562723_snmogi">807077ab2f013010056f28a62799b687</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="決裁システム">807077ab2f013010056f28a62799b687</sys_scope>
+        <sys_update_name>sys_script_client_471414e72f063010cd78bcb62799b65c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-11-04 04:45:36</sys_updated_on>
+        <table>x_562723_snmogi_kessai</table>
+        <type>onLoad</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

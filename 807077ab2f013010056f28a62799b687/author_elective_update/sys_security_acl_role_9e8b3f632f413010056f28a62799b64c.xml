@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="DELETE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-07-06 07:52:26</sys_created_on>
+        <sys_id>9e8b3f632f413010056f28a62799b64c</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>x_562723_snmogi_kessai.x_562723_snmogi.Kessai admin</sys_name>
+        <sys_package display_value="決裁システム" source="x_562723_snmogi">807077ab2f013010056f28a62799b687</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="決裁システム">807077ab2f013010056f28a62799b687</sys_scope>
+        <sys_security_acl display_value="x_562723_snmogi_kessai">de8b3f632f413010056f28a62799b649</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_9e8b3f632f413010056f28a62799b64c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-07-08 06:47:00</sys_updated_on>
+        <sys_user_role display_value="x_562723_snmogi.Kessai admin" name="x_562723_snmogi.Kessai admin">bafd7d102f913010056f28a62799b623</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="決裁システム">807077ab2f013010056f28a62799b687</application>
+        <file_path/>
+        <instance_id>fc44f3d6dbb0ef44b2e05d00cf96196c</instance_id>
+        <instance_name>dev71432</instance_name>
+        <name>sys_security_acl_role_9e8b3f632f413010056f28a62799b64c</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-07-06 07:52:26</sys_created_on><sys_id>9e8b3f632f413010056f28a62799b64c</sys_id><sys_mod_count>1</sys_mod_count><sys_name>x_562723_snmogi_kessai.x_562723_snmogi.Kessai admin</sys_name><sys_package display_value="決裁システム" source="x_562723_snmogi">807077ab2f013010056f28a62799b687</sys_package><sys_policy/><sys_scope display_value="決裁システム">807077ab2f013010056f28a62799b687</sys_scope><sys_security_acl display_value="x_562723_snmogi_kessai">de8b3f632f413010056f28a62799b649</sys_security_acl><sys_update_name>sys_security_acl_role_9e8b3f632f413010056f28a62799b64c</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-07-08 06:47:00</sys_updated_on><sys_user_role display_value="x_562723_snmogi.Kessai admin" name="x_562723_snmogi.Kessai admin">bafd7d102f913010056f28a62799b623</sys_user_role><transaction_id/></sys_security_acl_role></record_update>]]></payload>
+        <payload_hash>-1255097032</payload_hash>
+        <record_name>x_562723_snmogi_kessai.x_562723_snmogi.Kessai admin</record_name>
+        <reverted_from/>
+        <source>147077ab2f013010056f28a62799b689</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-07-08 06:47:00</sys_created_on>
+        <sys_id>fbbf35902f913010056f28a62799b6c2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17a84dea1e10000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-07-08 06:47:00</sys_updated_on>
+        <type>アクセス許可ロール</type>
+        <update_guid>77bf35902191301005bc13792d116ec2</update_guid>
+        <update_guid_history>77bf35902191301005bc13792d116ec2:-1255097032,528b3f6318413010b50f5023f55a194f:-815017992</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="x_562723_snmogi_kessai.x_562723_snmogi.Kessai admin">8c6bced82f913010056f28a62799b6db</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-07-08 07:37:49</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl_role">sys_security_acl_role</sys_db_object>
+        <sys_id>86d3582e5e3447409fabb4f8ac822d64</sys_id>
+        <sys_metadata>9e8b3f632f413010056f28a62799b64c</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_562723_snmogi_kessai.x_562723_snmogi.Kessai admin</sys_name>
+        <sys_package display_value="決裁システム" source="x_562723_snmogi">807077ab2f013010056f28a62799b687</sys_package>
+        <sys_parent display_value="">de8b3f632f413010056f28a62799b649</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="決裁システム">807077ab2f013010056f28a62799b687</sys_scope>
+        <sys_scope_delete display_value="">56e3d82ab4b847eeb7d50eac727ec071</sys_scope_delete>
+        <sys_update_name>sys_security_acl_role_9e8b3f632f413010056f28a62799b64c</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_role_9e8b3f632f413010056f28a62799b64c">fbbf35902f913010056f28a62799b6c2</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-07-08 07:37:49</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

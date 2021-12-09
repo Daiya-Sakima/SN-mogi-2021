@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="u_etsuran" label="閲覧レベル" language="ja" table="x_562723_snmogi_kessai">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_etsuran</element>
+            <help/>
+            <hint/>
+            <label>閲覧レベル</label>
+            <language>ja</language>
+            <name>x_562723_snmogi_kessai</name>
+            <plural>閲覧レベル</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-07-09 05:56:38</sys_created_on>
+            <sys_id>63cd76ec2f113010056f28a62799b6fc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>閲覧レベル</sys_name>
+            <sys_package display_value="決裁システム" source="x_562723_snmogi">807077ab2f013010056f28a62799b687</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="決裁システム">807077ab2f013010056f28a62799b687</sys_scope>
+            <sys_update_name>sys_documentation_x_562723_snmogi_kessai_u_etsuran_ja</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-07-09 05:56:38</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

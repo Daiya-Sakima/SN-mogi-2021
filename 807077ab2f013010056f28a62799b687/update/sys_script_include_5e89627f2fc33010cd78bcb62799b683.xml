@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>true</active>
+        <api_name>x_562723_snmogi.ユーザー情報取得Ajax</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description/>
+        <name>ユーザー情報取得Ajax</name>
+        <script><![CDATA[var GetUserDetailsAjax = Class.create();
+GetUserDetailsAjax.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+    getInfo: function() {
+		var usrId = this.getParameter('sysparm_user_id');
+		var grUser = new GlideRecord('sys_user');
+		var grDept = new GlideRecord('cmn_department');
+		var usrDeptId;
+		var result;
+		var json = new JSON();
+		
+		if (grUser.get('sys_id',usrId)) {
+			usrDeptId = grUser.getValue('department');
+			
+			if (grDept.get('sys_id',usrDeptId)) {
+			
+				result = {
+					"sys_id" : grDept.getValue("sys_id"),
+					"name" : grDept.getValue("parent")
+				};
+				
+				return json.encode(result);
+			
+			}
+		} else {
+			return null;
+		}
+
+    },
+
+    type: 'GetUserDetailsAjax'
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-10-14 06:53:33</sys_created_on>
+        <sys_id>5e89627f2fc33010cd78bcb62799b683</sys_id>
+        <sys_mod_count>21</sys_mod_count>
+        <sys_name>ユーザー情報取得Ajax</sys_name>
+        <sys_package display_value="決裁システム" source="x_562723_snmogi">807077ab2f013010056f28a62799b687</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="決裁システム">807077ab2f013010056f28a62799b687</sys_scope>
+        <sys_update_name>sys_script_include_5e89627f2fc33010cd78bcb62799b683</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-10-21 08:02:28</sys_updated_on>
+    </sys_script_include>
+</record_update>

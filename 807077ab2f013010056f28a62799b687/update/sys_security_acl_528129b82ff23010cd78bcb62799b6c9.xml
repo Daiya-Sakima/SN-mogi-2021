@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl">
+    <sys_security_acl action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <admin_overrides>true</admin_overrides>
+        <advanced>true</advanced>
+        <condition/>
+        <description>決定レベルごとのACL設定：役付以上（読み込みのみ）</description>
+        <name>x_562723_snmogi_kessai</name>
+        <operation display_value="create">create</operation>
+        <script><![CDATA[var arrUtil = new global.ArrayUtil();
+var curIdFlg = current.u_id_title_flg.getDisplayValue();
+var grCurUser = new GlideRecord('sys_user');
+var curUserDeptId = getUsrRecord(gs.getUserID());
+var curGougi1Ids = current.u_approver_list_5.split(",");
+
+for (var i = 0; i < curGougi1Ids.length; i++) {
+	var getUsrAnswer = getUsrRecord(curGougi1Ids[i]);
+	curGougi1Ids[i] = getUsrAnswer;
+}
+
+if ((curIdFlg == "1,2") && (arrUtil.indexOf(curGougi1Ids, curUserDeptId) != -1) && gs.HasRole()) {
+    answer = true;
+} else {
+    answer = false;
+}
+
+function getUsrRecord(ansDept) {
+	var grRcdUser = new GlideRecord('sys_user');
+	grRcdUser.get(ansDept);
+	var deptId = grRcdUser.department;
+	return deptId;
+}]]></script>
+        <sys_class_name>sys_security_acl</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-09-22 07:31:47</sys_created_on>
+        <sys_id>528129b82ff23010cd78bcb62799b6c9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_562723_snmogi_kessai</sys_name>
+        <sys_package display_value="決裁システム" source="x_562723_snmogi">807077ab2f013010056f28a62799b687</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="決裁システム">807077ab2f013010056f28a62799b687</sys_scope>
+        <sys_update_name>sys_security_acl_528129b82ff23010cd78bcb62799b6c9</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-09-22 07:31:47</sys_updated_on>
+        <type display_value="record">record</type>
+    </sys_security_acl>
+</record_update>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_restricted_caller_access">
+    <sys_restricted_caller_access action="INSERT_OR_UPDATE">
+        <operation>read</operation>
+        <source>80d4a005c0a801661dde939536239b02</source>
+        <source_scope display_value="Global">global</source_scope>
+        <source_table>sys_security_acl</source_table>
+        <source_type>11</source_type>
+        <status>2</status>
+        <sys_class_name>sys_restricted_caller_access</sys_class_name>
+        <sys_created_by>houmu1</sys_created_by>
+        <sys_created_on>2021-09-24 01:08:53</sys_created_on>
+        <sys_id>5b5e9a9d2f323010cd78bcb62799b6ba</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>global</sys_name>
+        <sys_package display_value="決裁システム" source="x_562723_snmogi">807077ab2f013010056f28a62799b687</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="決裁システム">807077ab2f013010056f28a62799b687</sys_scope>
+        <sys_update_name>sys_restricted_caller_access_5b5e9a9d2f323010cd78bcb62799b6ba</sys_update_name>
+        <sys_updated_by>houmu1</sys_updated_by>
+        <sys_updated_on>2021-09-24 01:08:53</sys_updated_on>
+        <target name="x_562723_snmogi_kessai" target_table="sys_db_object">dabb8ed82f913010056f28a62799b633</target>
+        <target_scope display_value="決裁システム">807077ab2f013010056f28a62799b687</target_scope>
+        <target_table>sys_db_object</target_table>
+        <target_type>1</target_type>
+    </sys_restricted_caller_access>
+</record_update>

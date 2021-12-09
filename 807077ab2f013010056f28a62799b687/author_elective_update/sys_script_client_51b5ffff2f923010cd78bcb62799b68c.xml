@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="DELETE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description>決裁書記号が入力された場合、年度フィールドに決裁書記号の年度を入力する</description>
+        <field>u_number</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>年度自動設定</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+   if (isLoading || newValue === '') {
+      return;
+   }
+
+   //Type appropriate comment here, and begin script below
+   g_form.getReference('u_number', setNendo);
+	
+	function setNendo(u_number) {
+		g_from.setValue('u_nendo', u_number + '[' + u_number + ']');
+	}
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-09-07 05:40:52</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>51b5ffff2f923010cd78bcb62799b68c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>年度自動設定</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="決裁システム" source="x_562723_snmogi">807077ab2f013010056f28a62799b687</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="決裁システム">807077ab2f013010056f28a62799b687</sys_scope>
+        <sys_update_name>sys_script_client_51b5ffff2f923010cd78bcb62799b68c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-09-07 05:40:52</sys_updated_on>
+        <table>x_562723_snmogi_kessai</table>
+        <type>onChange</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="決裁システム">807077ab2f013010056f28a62799b687</application>
+        <file_path/>
+        <instance_id>e03748e0db0b73002f68c597059619fd</instance_id>
+        <instance_name>dev89956</instance_name>
+        <name>sys_script_client_51b5ffff2f923010cd78bcb62799b68c</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script_client"&gt;&lt;sys_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;applies_extended&gt;false&lt;/applies_extended&gt;&lt;condition/&gt;&lt;description&gt;決裁書記号が入力された場合、年度フィールドに決裁書記号の年度を入力する&lt;/description&gt;&lt;field&gt;u_number&lt;/field&gt;&lt;global&gt;true&lt;/global&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;messages/&gt;&lt;name&gt;年度自動設定&lt;/name&gt;&lt;order/&gt;&lt;script&gt;&lt;![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+   if (isLoading || newValue === '') {
+      return;
+   }
+
+   //Type appropriate comment here, and begin script below
+   g_form.getReference('u_number', setNendo);
+	
+	function setNendo(u_number) {
+		g_from.setValue('u_nendo', u_number + '[' + u_number + ']');
+	}
+}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-09-07 05:40:52&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;51b5ffff2f923010cd78bcb62799b68c&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;年度自動設定&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="決裁システム" source="x_562723_snmogi"&gt;807077ab2f013010056f28a62799b687&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="決裁システム"&gt;807077ab2f013010056f28a62799b687&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_client_51b5ffff2f923010cd78bcb62799b68c&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-09-07 05:40:52&lt;/sys_updated_on&gt;&lt;table&gt;x_562723_snmogi_kessai&lt;/table&gt;&lt;type&gt;onChange&lt;/type&gt;&lt;ui_type&gt;0&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_script_client&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-748186268</payload_hash>
+        <record_name>年度自動設定</record_name>
+        <reverted_from/>
+        <source>147077ab2f013010056f28a62799b689</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-09-07 05:40:52</sys_created_on>
+        <sys_id>6d993bf32fd23010cd78bcb62799b6d1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17bbec601130000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-09-07 05:40:52</sys_updated_on>
+        <type>Client Script</type>
+        <update_guid>a5993bf319d23010aca93a1868668ed1</update_guid>
+        <update_guid_history>a5993bf319d23010aca93a1868668ed1:-748186268</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-09-07 05:47:17</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_client">sys_script_client</sys_db_object>
+        <sys_id>08633482af9f42baa23b484d992e1841</sys_id>
+        <sys_metadata>51b5ffff2f923010cd78bcb62799b68c</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>年度自動設定</sys_name>
+        <sys_package display_value="決裁システム" source="x_562723_snmogi">807077ab2f013010056f28a62799b687</sys_package>
+        <sys_parent display_value="決裁システム">dabb8ed82f913010056f28a62799b633</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="決裁システム">807077ab2f013010056f28a62799b687</sys_scope>
+        <sys_scope_delete display_value="">56e3d82ab4b847eeb7d50eac727ec071</sys_scope_delete>
+        <sys_update_name>sys_script_client_51b5ffff2f923010cd78bcb62799b68c</sys_update_name>
+        <sys_update_version display_value="sys_script_client_51b5ffff2f923010cd78bcb62799b68c">6d993bf32fd23010cd78bcb62799b6d1</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-09-07 05:47:17</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

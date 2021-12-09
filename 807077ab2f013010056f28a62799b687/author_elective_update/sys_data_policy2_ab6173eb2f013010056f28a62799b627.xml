@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_data_policy2">
+    <sys_data_policy2 action="DELETE">
+        <active>true</active>
+        <apply_import_set>true</apply_import_set>
+        <apply_soap>true</apply_soap>
+        <conditions/>
+        <description/>
+        <enforce_ui>true</enforce_ui>
+        <inherit>false</inherit>
+        <model_id/>
+        <model_table>x_562723_snmogi_kessaikigou</model_table>
+        <reverse_if_false>true</reverse_if_false>
+        <short_description>Mark フィールドを必須に設定</short_description>
+        <sys_class_name>sys_data_policy2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-07-06 07:08:16</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>ab6173eb2f013010056f28a62799b627</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Mark フィールドを必須に設定</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="決裁システム" source="x_562723_snmogi">807077ab2f013010056f28a62799b687</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="決裁システム">807077ab2f013010056f28a62799b687</sys_scope>
+        <sys_update_name>sys_data_policy2_ab6173eb2f013010056f28a62799b627</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-07-06 07:08:16</sys_updated_on>
+    </sys_data_policy2>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="決裁システム">807077ab2f013010056f28a62799b687</application>
+        <file_path/>
+        <instance_id>fc44f3d6dbb0ef44b2e05d00cf96196c</instance_id>
+        <instance_name>dev71432</instance_name>
+        <name>sys_data_policy2_ab6173eb2f013010056f28a62799b627</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_data_policy2"><sys_data_policy2 action="INSERT_OR_UPDATE"><active>true</active><apply_import_set>true</apply_import_set><apply_soap>true</apply_soap><conditions/><description/><enforce_ui>true</enforce_ui><inherit>false</inherit><model_id/><model_table>x_562723_snmogi_kessaikigou</model_table><reverse_if_false>true</reverse_if_false><short_description>Mark フィールドを必須に設定</short_description><sys_class_name>sys_data_policy2</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-07-06 07:08:16</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>ab6173eb2f013010056f28a62799b627</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Mark フィールドを必須に設定</sys_name><sys_overrides/><sys_package display_value="決裁システム" source="x_562723_snmogi">807077ab2f013010056f28a62799b687</sys_package><sys_policy/><sys_scope display_value="決裁システム">807077ab2f013010056f28a62799b687</sys_scope><sys_update_name>sys_data_policy2_ab6173eb2f013010056f28a62799b627</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-07-06 07:08:16</sys_updated_on></sys_data_policy2></record_update>]]></payload>
+        <payload_hash>1850682714</payload_hash>
+        <record_name>Mark フィールドを必須に設定</record_name>
+        <reverted_from/>
+        <source>147077ab2f013010056f28a62799b689</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-07-06 07:08:16</sys_created_on>
+        <sys_id>2f6173eb2f013010056f28a62799b629</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17a7aa561110000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-07-06 07:08:16</sys_updated_on>
+        <type>データポリシー</type>
+        <update_guid>276173eb99013010f5d478f48bd6ab29</update_guid>
+        <update_guid_history>276173eb99013010f5d478f48bd6ab29:1850682714</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-07-08 07:38:28</sys_created_on>
+        <sys_db_object display_value="" name="sys_data_policy2">sys_data_policy2</sys_db_object>
+        <sys_id>86e34c1380bf46e0a996a8b72bf2f0e1</sys_id>
+        <sys_metadata>ab6173eb2f013010056f28a62799b627</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Mark フィールドを必須に設定</sys_name>
+        <sys_package display_value="決裁システム" source="x_562723_snmogi">807077ab2f013010056f28a62799b687</sys_package>
+        <sys_parent display_value="">036133eb2f013010056f28a62799b687</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="決裁システム">807077ab2f013010056f28a62799b687</sys_scope>
+        <sys_scope_delete display_value="">56e3d82ab4b847eeb7d50eac727ec071</sys_scope_delete>
+        <sys_update_name>sys_data_policy2_ab6173eb2f013010056f28a62799b627</sys_update_name>
+        <sys_update_version display_value="sys_data_policy2_ab6173eb2f013010056f28a62799b627">2f6173eb2f013010056f28a62799b629</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-07-08 07:38:28</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role_contains">
+    <sys_user_role_contains action="INSERT_OR_UPDATE">
+        <contains display_value="x_562723_snmogi.allread" name="x_562723_snmogi.allread">b1e4d5d62f913010056f28a62799b6a2</contains>
+        <role display_value="x_562723_snmogi.owner" name="x_562723_snmogi.owner">74f2d5962f913010056f28a62799b64f</role>
+        <sys_class_name>sys_user_role_contains</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-07-14 08:49:04</sys_created_on>
+        <sys_id>02359dd62f913010056f28a62799b624</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_562723_snmogi.allread.x_562723_snmogi.owner</sys_name>
+        <sys_package display_value="決裁システム" source="x_562723_snmogi">807077ab2f013010056f28a62799b687</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="決裁システム">807077ab2f013010056f28a62799b687</sys_scope>
+        <sys_update_name>sys_user_role_contains_02359dd62f913010056f28a62799b624</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-07-14 08:49:04</sys_updated_on>
+    </sys_user_role_contains>
+</record_update>

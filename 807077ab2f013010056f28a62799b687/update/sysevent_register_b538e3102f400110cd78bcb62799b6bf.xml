@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sysevent_register">
+    <sysevent_register action="INSERT_OR_UPDATE">
+        <caller_access/>
+        <description>発議日から7日以上滞留しているレコードに対して督促通知を実行する</description>
+        <event_name>x_562723_snmogi.dunning</event_name>
+        <fired_by>Scheduled Script Execution: 7 Days Record Dunning</fired_by>
+        <queue/>
+        <suffix>dunning</suffix>
+        <sys_class_name>sysevent_register</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-11-22 07:24:27</sys_created_on>
+        <sys_id>b538e3102f400110cd78bcb62799b6bf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_562723_snmogi.dunning</sys_name>
+        <sys_package display_value="決裁システム" source="x_562723_snmogi">807077ab2f013010056f28a62799b687</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="決裁システム">807077ab2f013010056f28a62799b687</sys_scope>
+        <sys_update_name>sysevent_register_b538e3102f400110cd78bcb62799b6bf</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-11-22 07:24:27</sys_updated_on>
+        <table>x_562723_snmogi_kessai</table>
+    </sysevent_register>
+</record_update>

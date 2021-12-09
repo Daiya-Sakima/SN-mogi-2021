@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="DELETE">
+        <cleared>false</cleared>
+        <disabled>false</disabled>
+        <field>u_tablemei</field>
+        <mandatory>ignore</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-08-23 07:47:10</sys_created_on>
+        <sys_id>f196c7872fc2301022ec97eef699b6cc</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_name>u_tablemei</sys_name>
+        <sys_package display_value="決裁システム" source="x_562723_snmogi">807077ab2f013010056f28a62799b687</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="決裁システム">807077ab2f013010056f28a62799b687</sys_scope>
+        <sys_update_name>sys_ui_policy_action_f196c7872fc2301022ec97eef699b6cc</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-08-23 08:02:50</sys_updated_on>
+        <table>x_562723_snmogi_kessai</table>
+        <ui_policy display_value="UI制御(決裁テーブル)">fb6647872fc2301022ec97eef699b6f4</ui_policy>
+        <visible>true</visible>
+    </sys_ui_policy_action>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="決裁システム">807077ab2f013010056f28a62799b687</application>
+        <file_path/>
+        <instance_id>e03748e0db0b73002f68c597059619fd</instance_id>
+        <instance_name>dev89956</instance_name>
+        <name>sys_ui_policy_action_f196c7872fc2301022ec97eef699b6cc</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action"><sys_ui_policy_action action="INSERT_OR_UPDATE"><cleared>false</cleared><disabled>false</disabled><field>u_tablemei</field><mandatory>ignore</mandatory><sys_class_name>sys_ui_policy_action</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-08-23 07:47:10</sys_created_on><sys_id>f196c7872fc2301022ec97eef699b6cc</sys_id><sys_mod_count>10</sys_mod_count><sys_name>u_tablemei</sys_name><sys_package display_value="決裁システム" source="x_562723_snmogi">807077ab2f013010056f28a62799b687</sys_package><sys_policy/><sys_scope display_value="決裁システム">807077ab2f013010056f28a62799b687</sys_scope><sys_update_name>sys_ui_policy_action_f196c7872fc2301022ec97eef699b6cc</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-08-23 08:02:50</sys_updated_on><table>x_562723_snmogi_kessai</table><ui_policy display_value="UI制御(決裁テーブル)">fb6647872fc2301022ec97eef699b6f4</ui_policy><visible>true</visible></sys_ui_policy_action></record_update>]]></payload>
+        <payload_hash>-1228977283</payload_hash>
+        <record_name>u_tablemei</record_name>
+        <reverted_from/>
+        <source>147077ab2f013010056f28a62799b689</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-08-23 08:02:50</sys_created_on>
+        <sys_id>3e3acf0b2fc2301022ec97eef699b66b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17b720894780000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-08-23 08:02:50</sys_updated_on>
+        <type>UI ポリシーアクション</type>
+        <update_guid>b63acf0bbfc23010c5e0f0cb526f016b</update_guid>
+        <update_guid_history>b63acf0bbfc23010c5e0f0cb526f016b:-1228977283,1f794b0b02c23010034a5882fa18f8fb:1796590648,f979070baec230104e8d3d541f1a38b0:-160216516,bb590b0b4ec23010f0bd139269e1512a:-462465429,6149470b5cc230109d7322ed12227c2f:765689162,1d09070b28c23010ee6b88c37fe069a8:-1228977283,0757cf875ec2301078eb31c1cdbde3df:1796590648,ca074f8709c2301007f43b29ca48bc88:-1228977283,67e64b8707c23010c5468f9bae2a9a47:1796590648,eee6c78767c23010f3a5bd4386885749:-1228977283,5da647873fc2301067bcabf3a9db8cb6:913538041</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-08-23 08:12:53</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_policy_action">sys_ui_policy_action</sys_db_object>
+        <sys_id>1f659148d14f4f118516eea00a2b33c9</sys_id>
+        <sys_metadata>f196c7872fc2301022ec97eef699b6cc</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>u_tablemei</sys_name>
+        <sys_package display_value="決裁システム" source="x_562723_snmogi">807077ab2f013010056f28a62799b687</sys_package>
+        <sys_parent display_value="UI制御(決裁テーブル)">fb6647872fc2301022ec97eef699b6f4</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="決裁システム">807077ab2f013010056f28a62799b687</sys_scope>
+        <sys_scope_delete display_value="">56e3d82ab4b847eeb7d50eac727ec071</sys_scope_delete>
+        <sys_update_name>sys_ui_policy_action_f196c7872fc2301022ec97eef699b6cc</sys_update_name>
+        <sys_update_version display_value="sys_ui_policy_action_f196c7872fc2301022ec97eef699b6cc">3e3acf0b2fc2301022ec97eef699b66b</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-08-23 08:12:53</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
