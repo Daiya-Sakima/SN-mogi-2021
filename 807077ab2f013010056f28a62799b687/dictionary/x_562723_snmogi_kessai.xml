@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element audit="true" extends="task" label="Kessai" max_length="40" name="x_562723_snmogi_kessai" sizeclass="42" type="collection">
+    <element audit="true" extends="task" label="Kessai" max_length="40" name="x_562723_snmogi_kessai" sizeclass="43" type="collection">
         <element label="Approver_list_2" max_length="4000" name="approver_list_2" reference="sys_user" reference_qual="department=787651f12f423010cd78bcb62799b677^ORdepartment=875656192f323010cd78bcb62799b693^ORdepartment=acb656192f323010cd78bcb62799b632^ORdepartment=221f79b7c6112284005d646b76ab978c^ORdepartment=a581ab703710200044e0bfc8bcbe5de8^roles=x_562723_snmogi.yakutuki^EQ" reference_qual_condition="department=787651f12f423010cd78bcb62799b677^ORdepartment=875656192f323010cd78bcb62799b693^ORdepartment=acb656192f323010cd78bcb62799b632^ORdepartment=221f79b7c6112284005d646b76ab978c^ORdepartment=a581ab703710200044e0bfc8bcbe5de8^roles=x_562723_snmogi.yakutuki^EQ" type="glide_list"/>
         <element choice="2" choice_field="state" choice_table="x_562723_snmogi_kessai" default="0" dependent="state" dependent_on_field="state" label="State" max_length="40" name="u_approval_level" read_only="true" type="integer" use_dependent_field="true">
             <choice>

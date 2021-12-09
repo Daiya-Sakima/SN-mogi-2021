@@ -3,7 +3,7 @@
         <active>true</active>
         <business_calendar/>
         <condition/>
-        <conditional>true</conditional>
+        <conditional>false</conditional>
         <entered_time>1970-01-01 20:00:00</entered_time>
         <name>7 Days Record Dunning</name>
         <offset/>
@@ -30,14 +30,14 @@ while(gr.next()) {
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-11-04 08:40:06</sys_created_on>
         <sys_id>c1d9836e2f673010cd78bcb62799b650</sys_id>
-        <sys_mod_count>10</sys_mod_count>
+        <sys_mod_count>11</sys_mod_count>
         <sys_name>7 Days Record Dunning</sys_name>
         <sys_package display_value="決裁システム" source="x_562723_snmogi">807077ab2f013010056f28a62799b687</sys_package>
         <sys_policy/>
         <sys_scope display_value="決裁システム">807077ab2f013010056f28a62799b687</sys_scope>
         <sys_update_name>sysauto_script_c1d9836e2f673010cd78bcb62799b650</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-12-02 07:24:32</sys_updated_on>
+        <sys_updated_on>2021-12-03 01:29:47</sys_updated_on>
         <time_zone>JST</time_zone>
         <upgrade_safe>false</upgrade_safe>
     </sysauto_script>

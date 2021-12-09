@@ -31,12 +31,12 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-11-30 07:29:12</sys_created_on>
         <sys_id>ebe7b4c32f800110cd78bcb62799b62f</sys_id>
-        <sys_mod_count>9</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-11-30 07:33:12</sys_updated_on>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_updated_by>kiansya1</sys_updated_by>
+        <sys_updated_on>2021-12-06 06:10:36</sys_updated_on>
         <table>x_562723_snmogi_kessai</table>
         <timezone/>
-        <validated>false</validated>
+        <validated>true</validated>
         <workflow display_value="Kessai Approval WF">7878ee552fd23010cd78bcb62799b618</workflow>
     </wf_workflow_version>
     <wf_workflow action="INSERT_OR_UPDATE">
